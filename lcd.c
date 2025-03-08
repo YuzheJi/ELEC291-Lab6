@@ -13,14 +13,6 @@ void Delay_us(unsigned char us)
 	SysTick->CTRL = 0x00; // Disable Systick counter
 }
 
-void waitms (unsigned int ms)
-{
-	unsigned int j;
-	unsigned char k;
-	for(j=0; j<ms; j++)
-		for (k=0; k<4; k++) Delay_us(250);
-}
-
 void LCD_pulse (void)
 {
 	LCD_E_1;

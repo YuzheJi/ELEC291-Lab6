@@ -149,7 +149,7 @@ void main(void)
 		else
 		{
 			printf("NO SIGNAL                     \r");
-			LCDprint("No signal");
+			LCDprint("No signal",1,1);
 		}
 		fflush(stdout); // GCC printf wants a \n in order to send something.  If \n is not present, we fflush(stdout)
 		waitms(200);

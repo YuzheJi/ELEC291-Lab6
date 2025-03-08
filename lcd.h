@@ -15,7 +15,6 @@
 #define CHARS_PER_LINE 16
 
 void Delay_us(unsigned char us);
-void waitms (unsigned int ms);
 void LCD_pulse (void);
 void LCD_byte (unsigned char x);
 void WriteData (unsigned char x);
