@@ -4,6 +4,7 @@
 #include "lcd.h"
 #include "../Common/Include/stm32l051xx.h"
 
+// hello world
 #define F_CPU 32000000L
 
 void delay(int dly)
