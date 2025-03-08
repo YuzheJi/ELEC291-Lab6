@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include "lcd.h"
 #include "../Common/Include/stm32l051xx.h"
 
 #define F_CPU 32000000L
@@ -8,6 +9,30 @@
 void delay(int dly)
 {
 	while( dly--);
+}
+
+void Configure_Pins (void)
+{
+	RCC->IOPENR |= BIT0; // peripheral clock enable for port A
+	
+	// Make pins PA0 to PA5 outputs (page 200 of RM0451, two bits used to configure: bit0=1, bit1=0)
+    GPIOA->MODER = (GPIOA->MODER & ~(BIT0|BIT1)) | BIT0; // PA0
+	GPIOA->OTYPER &= ~BIT0; // Push-pull
+    
+    GPIOA->MODER = (GPIOA->MODER & ~(BIT2|BIT3)) | BIT2; // PA1
+	GPIOA->OTYPER &= ~BIT1; // Push-pull
+    
+    GPIOA->MODER = (GPIOA->MODER & ~(BIT4|BIT5)) | BIT4; // PA2
+	GPIOA->OTYPER &= ~BIT2; // Push-pull
+    
+    GPIOA->MODER = (GPIOA->MODER & ~(BIT6|BIT7)) | BIT6; // PA3
+	GPIOA->OTYPER &= ~BIT3; // Push-pull
+    
+    GPIOA->MODER = (GPIOA->MODER & ~(BIT8|BIT9)) | BIT8; // PA4
+	GPIOA->OTYPER &= ~BIT4; // Push-pull
+    
+    GPIOA->MODER = (GPIOA->MODER & ~(BIT10|BIT11)) | BIT10; // PA5
+	GPIOA->OTYPER &= ~BIT5; // Push-pull
 }
 
 void wait_1ms(void)
@@ -95,6 +120,7 @@ void main(void)
 {
 	long int count;
 	float T, f;
+	char linebuffer[17];
 	
 	RCC->IOPENR |= 0x00000001; // peripheral clock enable for port A
 	
@@ -115,10 +141,14 @@ void main(void)
 			T=count/(F_CPU*100.0); // Since we have the time of 100 periods, we need to divide by 100
 			f=1.0/T;
 			printf("f=%.2fHz, count=%d            \r", f, count);
+			sprintf(linebuffer,"f=%.2fHz",f);
+			LCDprint(linebuffer,1,1);
+
 		}
 		else
 		{
 			printf("NO SIGNAL                     \r");
+			LCDprint("No signal");
 		}
 		fflush(stdout); // GCC printf wants a \n in order to send something.  If \n is not present, we fflush(stdout)
 		waitms(200);
