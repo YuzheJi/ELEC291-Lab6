@@ -13,6 +13,14 @@ void Delay_us(unsigned char us)
 	SysTick->CTRL = 0x00; // Disable Systick counter
 }
 
+void waitms_lcd (unsigned int ms)
+{
+	unsigned int j;
+	unsigned char k;
+	for(j=0; j<ms; j++)
+		for (k=0; k<4; k++) Delay_us(250);
+}
+
 void LCD_pulse (void)
 {
 	LCD_E_1;
@@ -41,21 +49,21 @@ void WriteData (unsigned char x)
 {
 	LCD_RS_1;
 	LCD_byte(x);
-	waitms(2);
+	waitms_lcd(2);
 }
 
 void WriteCommand (unsigned char x)
 {
 	LCD_RS_0;
 	LCD_byte(x);
-	waitms(5);
+	waitms_lcd(5);
 }
 
 void LCD_4BIT (void)
 {
 	LCD_E_0; // Resting state of LCD's enable is zero
 	//LCD_RW=0; // We are only writing to the LCD in this program
-	waitms(20);
+	waitms_lcd(20);
 	// First make sure the LCD is in 8-bit mode and then change to 4-bit mode
 	WriteCommand(0x33);
 	WriteCommand(0x33);
@@ -65,7 +73,7 @@ void LCD_4BIT (void)
 	WriteCommand(0x28);
 	WriteCommand(0x0c);
 	WriteCommand(0x01); // Clear screen command (takes some time)
-	waitms(20); // Wait for clear screen command to finsih.
+	waitms_lcd(20); // Wait for clear screen command to finsih.
 }
 
 void LCDprint(char * string, unsigned char line, unsigned char clear)
@@ -73,7 +81,24 @@ void LCDprint(char * string, unsigned char line, unsigned char clear)
 	int j;
 
 	WriteCommand(line==2?0xc0:0x80);
-	waitms(5);
+	waitms_lcd(5);
+	for(j=0; string[j]!=0; j++)	WriteData(string[j]);// Write the message
+	if(clear) for(; j<CHARS_PER_LINE; j++) WriteData(' '); // Clear the rest of the line
+}
+
+void LCDprint1(char * string, unsigned char line, unsigned char position, unsigned char clear)
+{
+	int j;
+	unsigned char address; 
+	
+	if (line == 1){
+		address = 0x80 + position; 
+	}
+	else {
+		address = 0xC0 + position; 
+	}
+	WriteCommand(address);
+	waitms_lcd(5);
 	for(j=0; string[j]!=0; j++)	WriteData(string[j]);// Write the message
 	if(clear) for(; j<CHARS_PER_LINE; j++) WriteData(' '); // Clear the rest of the line
 }

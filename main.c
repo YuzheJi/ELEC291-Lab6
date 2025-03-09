@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "lcd.h"
+#include <stdint.h>
 #include "../Common/Include/stm32l051xx.h"
+#include "lcd.h"
 
-// hello world
+
 #define F_CPU 32000000L
+#define factor 7312.5
+
 
 void delay(int dly)
 {
@@ -50,8 +53,63 @@ void waitms(int len)
 {
 	while(len--) wait_1ms();
 }
+// mode: 0 - 00 no pull, 1 - 01 pull up, 2 - 10 pull down
+void Set_Pin_Input(int pin, int pmode){
+	uint32_t upper_bits, bottom_bits; 
+	upper_bits = 1UL << pin * 2 + 1; 
+	bottom_bits = 1UL << pin * 2; 
+
+	GPIOA->MODER &= ~(bottom_bits | upper_bits);
+	
+	if (pmode == 0){
+		GPIOA->PUPDR &= ~(bottom_bits);
+		GPIOA->PUPDR &= ~(upper_bits);
+	}
+	else if (pmode == 1){
+		GPIOA->PUPDR |= (bottom_bits);
+		GPIOA->PUPDR &= ~(upper_bits);
+	}
+	else if (pmode == 2){
+		GPIOA->PUPDR |= (bottom_bits);
+		GPIOA->PUPDR |= (upper_bits);
+	}
+}
+// 0 - Bank A, 1 - Bank B
+void Set_Pin_Output(int bank, int pin, int pmode){
+	uint32_t upper_bits, bottom_bits; 
+	uint16_t type_bits; 
+	type_bits = 1UL << pin; 
+	upper_bits = 1UL << (pin * 2 + 1); 
+	bottom_bits = 1UL << (pin * 2); 
+	
+	if (bank == 0){
+		GPIOA->MODER = (GPIOA->MODER & ~(upper_bits|bottom_bits)) | bottom_bits;
+		if (pmode == 0){
+			GPIOA->OTYPER &= ~(type_bits);
+		}	
+	}
+	else if (bank == 1){
+		GPIOB->MODER = (GPIOB->MODER & ~(upper_bits|bottom_bits)) | bottom_bits;
+		if (pmode == 0){
+			GPIOB->OTYPER &= ~(type_bits);
+		}
+	}
+}
+
 
 #define PIN_PERIOD (GPIOA->IDR&BIT8)
+#define Button1 (GPIOA->IDR&BIT15) // PA15
+#define Button2 (GPIOA->IDR&BIT14) // PA14
+#define Button3 (GPIOA->IDR&BIT13) // PA13
+#define Button4 (GPIOA->IDR&BIT12) // PA12
+#define Button5 (GPIOA->IDR&BIT11) // PA11
+
+#define LED1_Set0 (GPIOA->ODR &= ~BIT7)
+#define LED1_Set1 (GPIOA->ODR |= BIT7)
+#define LED2_Set0 (GPIOA->ODR &= ~BIT6)
+#define LED2_Set1 (GPIOA->ODR |= BIT6)
+
+
 
 // GetPeriod() seems to work fine for frequencies between 300Hz and 600kHz.
 // 'n' is used to measure the time of 'n' periods; this increases accuracy.
@@ -98,37 +156,44 @@ long int GetPeriod (int n)
 }
 
 // LQFP32 pinout
-//             ----------
-//       VDD -|1       32|- VSS
-//      PC14 -|2       31|- BOOT0
-//      PC15 -|3       30|- PB7
-//      NRST -|4       29|- PB6
-//      VDDA -|5       28|- PB5
-//       PA0 -|6       27|- PB4
-//       PA1 -|7       26|- PB3
-//       PA2 -|8       25|- PA15
-//       PA3 -|9       24|- PA14
-//       PA4 -|10      23|- PA13
-//       PA5 -|11      22|- PA12
-//       PA6 -|12      21|- PA11
-//       PA7 -|13      20|- PA10 (Reserved for RXD)
-//       PB0 -|14      19|- PA9  (Reserved for TXD)
-//       PB1 -|15      18|- PA8  (Measure the period at this pin)
-//       VSS -|16      17|- VDD
-//             ----------
+//					   ----------
+//				 VDD -|1       32|- VSS
+//				PC14 -|2       31|- BOOT0
+//				PC15 -|3       30|- PB7 
+//				NRST -|4       29|- PB6 
+//			    VDDA -|5       28|- PB5 
+//				 PA0 -|6       27|- PB4
+//				 PA1 -|7       26|- PB3 
+//				 PA2 -|8       25|- PA15 Button 1
+//				 PA3 -|9       24|- PA14 Button 2
+//				 PA4 -|10      23|- PA13 Button 3
+//			 	 PA5 -|11      22|- PA12 Button 4
+//		LEDG	 PA6 -|12      21|- PA11 Button 5
+//		LEDR	 PA7 -|13      20|- PA10 RXD
+//				 PB0 -|14      19|- PA9  TXD
+//				 PB1 -|15      18|- PA8  Period
+//				 VSS -|16      17|- VDD
+//				       ----------
 
 void main(void)
 {
 	long int count;
-	float T, f;
+	float T, f, C;
 	char linebuffer[17];
-	
+
+	Configure_Pins();
+	LCD_4BIT();
+
 	RCC->IOPENR |= 0x00000001; // peripheral clock enable for port A
 	
-	GPIOA->MODER &= ~(BIT16 | BIT17); // Make pin PA8 input
-	// Activate pull up for pin PA8:
-	GPIOA->PUPDR |= BIT16; 
-	GPIOA->PUPDR &= ~(BIT17); 
+	Set_Pin_Input(8,1);
+	Set_Pin_Input(15,1);
+	Set_Pin_Input(14,1);
+	Set_Pin_Input(13,1);
+	Set_Pin_Input(12,1);
+	Set_Pin_Input(11,1);
+	Set_Pin_Output(0,6,0);
+	Set_Pin_Output(0,7,0);
 
 	waitms(500); // Wait for putty to start.
 	printf("Period measurement using the Systick free running counter.\r\n"
@@ -141,9 +206,13 @@ void main(void)
 		{
 			T=count/(F_CPU*100.0); // Since we have the time of 100 periods, we need to divide by 100
 			f=1.0/T;
-			printf("f=%.2fHz, count=%d            \r", f, count);
-			sprintf(linebuffer,"f=%.2fHz",f);
+			C = 1.0/(f*factor) *10e9;
+			// printf("f=%.2fHz, count=%d            \r", f, count);
+			//                  1234567890123456
+			sprintf(linebuffer,"C=%.2fnF",C);
 			LCDprint(linebuffer,1,1);
+			sprintf(linebuffer,"f=%.2fHz",f);
+			LCDprint(linebuffer,2,1);
 
 		}
 		else
@@ -151,6 +220,35 @@ void main(void)
 			printf("NO SIGNAL                     \r");
 			LCDprint("No signal",1,1);
 		}
+
+		if (!Button1){
+		 	while(!Button1);
+		 	printf("PA15(25) Pressed!\n\r");
+		}
+		if (!Button2){
+			while(!Button2);
+			printf("PA14(24) Pressed!\n\r");
+	    }
+	    if (!Button3){
+			while(!Button3);
+			printf("PA13(23) Pressed!\n\r");
+   		}
+		if (!Button4){
+		 	while(!Button4);
+		 	printf("PA12(22) Pressed!\n\r");
+		}
+		if (!Button5){
+			while(!Button5);
+			printf("PA11(21) Pressed!\n\r");
+	    }
+
+		LED1_Set1;
+		LED2_Set1;
+		waitms(500);
+		LED1_Set0; 
+		LED2_Set0;
+
+
 		fflush(stdout); // GCC printf wants a \n in order to send something.  If \n is not present, we fflush(stdout)
 		waitms(200);
 	}

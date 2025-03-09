@@ -10,7 +10,7 @@ LIBPATH1=$(subst \libgcc.a,,$(shell dir /s /b "$(GCCPATH)*libgcc.a" | find "v6-m
 LIBPATH2=$(subst \libc_nano.a,,$(shell dir /s /b "$(GCCPATH)*libc_nano.a" | find "v6-m"))
 LIBSPEC=-L"$(LIBPATH1)" -L"$(LIBPATH2)"
 
-OBJS=main.o startup.o serial.o newlib_stubs.o
+OBJS=main.o startup.o serial.o newlib_stubs.o lcd.o 
 
 # Notice that floating point is enabled with printf (-u _printf_float)
 main.hex: $(OBJS)
@@ -24,6 +24,9 @@ main.o: main.c
 startup.o: ../Common/Source/startup.c
 	$(CC) -c $(CCFLAGS) -DUSE_USART1 ../Common/Source/startup.c -o startup.o
 
+lcd.o: lcd.c
+	$(CC) -c $(CCFLAGS) lcd.c -o lcd.o
+
 serial.o: ../Common/Source/serial.c
 	$(CC) -c $(CCFLAGS) ../Common/Source/serial.c -o serial.o
 	
@@ -36,7 +39,7 @@ clean:
 
 Load_Flash: main.hex
 	@taskkill /f /im putty.exe /t /fi "status eq running" > NUL
-	@stm32flash -w main.hex -v -g 0x0 COM19
+	@echo ..\stm32flash\stm32flash -w main.hex -v -g 0x0 ^^>loadf.bat
 	@..\stm32flash\BO230\BO230 -b >>loadf.bat
 	@loadf
 	@echo cmd /c start putty.exe -sercfg 115200,8,n,1,N -serial ^^>sputty.bat

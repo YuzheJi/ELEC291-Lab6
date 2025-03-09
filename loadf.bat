@@ -1,8 +1,2 @@
-stm32flash 0.7
-
-http://stm32flash.sourceforge.net/
-
-Using Parser : Intel HEX
-Location     : 0x8000000
-Size         : 28352
-
+..\stm32flash\stm32flash -w main.hex -v -g 0x0 ^
+COM19
