@@ -1,8 +1,11 @@
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 #include <math.h>
+#include <stdbool.h>
 #include <stdint.h>
 #include "../Common/Include/stm32l051xx.h"
+#include "../Common/Include/serial.h"
 #include "lcd.h"
 
 
@@ -98,16 +101,36 @@ void Set_Pin_Output(int bank, int pin, int pmode){
 
 
 #define PIN_PERIOD (GPIOA->IDR&BIT8)
-#define Button1 (GPIOA->IDR&BIT15) // PA15
-#define Button2 (GPIOA->IDR&BIT14) // PA14
-#define Button3 (GPIOA->IDR&BIT13) // PA13
-#define Button4 (GPIOA->IDR&BIT12) // PA12
-#define Button5 (GPIOA->IDR&BIT11) // PA11
+#define Nof (GPIOA->IDR&BIT15) // PA15
+#define Setting_page (GPIOA->IDR&BIT14) // PA14
+#define Mode (GPIOA->IDR&BIT13) // PA13
+#define Record_page (GPIOA->IDR&BIT12) // PA12
+#define Rec (GPIOA->IDR&BIT11) // PA11
 
-#define LED1_Set0 (GPIOA->ODR &= ~BIT7)
-#define LED1_Set1 (GPIOA->ODR |= BIT7)
-#define LED2_Set0 (GPIOA->ODR &= ~BIT6)
-#define LED2_Set1 (GPIOA->ODR |= BIT6)
+// LQFP32 pinout
+//					   ----------
+//				 VDD -|1       32|- VSS
+//				PC14 -|2       31|- BOOT0
+//				PC15 -|3       30|- PB7 
+//				NRST -|4       29|- PB6 
+//			    VDDA -|5       28|- PB5 
+//				 PA0 -|6       27|- PB4
+//				 PA1 -|7       26|- PB3 
+//				 PA2 -|8       25|- PA15 Button 1
+//				 PA3 -|9       24|- PA14 Setting_page
+//				 PA4 -|10      23|- PA13 Mode
+//			 	 PA5 -|11      22|- PA12 Record_page
+//		LEDG	 PA6 -|12      21|- PA11 Button 5 Rec
+//		LEDR	 PA7 -|13      20|- PA10 RXD
+//				 PB0 -|14      19|- PA9  TXD
+//				 PB1 -|15      18|- PA8  Period
+//				 VSS -|16      17|- VDD
+//				       ----------
+
+#define LEDR_Set0 (GPIOA->ODR &= ~BIT7)
+#define LEDR_Set1 (GPIOA->ODR |= BIT7)
+#define LEDG_Set0 (GPIOA->ODR &= ~BIT6)
+#define LEDG_Set1 (GPIOA->ODR |= BIT6)
 
 
 
@@ -155,31 +178,199 @@ long int GetPeriod (int n)
 	return 0xffffff-SysTick->VAL;
 }
 
-// LQFP32 pinout
-//					   ----------
-//				 VDD -|1       32|- VSS
-//				PC14 -|2       31|- BOOT0
-//				PC15 -|3       30|- PB7 
-//				NRST -|4       29|- PB6 
-//			    VDDA -|5       28|- PB5 
-//				 PA0 -|6       27|- PB4
-//				 PA1 -|7       26|- PB3 
-//				 PA2 -|8       25|- PA15 Button 1
-//				 PA3 -|9       24|- PA14 Button 2
-//				 PA4 -|10      23|- PA13 Button 3
-//			 	 PA5 -|11      22|- PA12 Button 4
-//		LEDG	 PA6 -|12      21|- PA11 Button 5
-//		LEDR	 PA7 -|13      20|- PA10 RXD
-//				 PB0 -|14      19|- PA9  TXD
-//				 PB1 -|15      18|- PA8  Period
-//				 VSS -|16      17|- VDD
-//				       ----------
+int record(int* caprec, int rec_count, float cin){
+	caprec[rec_count] = cin * 1000;
+	rec_count++;
+	//        1234567890123456
+	LCDprint("Capacitance:",1,1);
+	LCDprint(" Data recorded!",2,1);
+	waitms(1000);
+	return rec_count;
+}
+
+int delete(int* cap1000, int rec_count, int delet_index){
+	
+	int i;
+	//        1234567890123456
+	LCDprint("Confirm delete?",1,1);
+	LCDprint("YES          NO",2,1);
+
+	while(1){
+		if(!Rec){
+			while(!Rec);
+			if(rec_count-1 < delet_index){
+				LCDprint("Delete Failed:",1,1);
+				LCDprint("Empty Entry....",2,1);
+				waitms(1000);
+				return rec_count;
+			}
+		
+			for(i=delet_index;i<29;i++){
+				cap1000[i] = cap1000[i+1];
+			}
+			cap1000[30] = 0;
+			rec_count--;
+			return rec_count;
+		}
+
+		if(!Mode){
+			while(!Mode);
+			return rec_count;
+		}	
+	}
+}
+
+int rec_page(int* cap1000, int rec_count){
+	int count = 0;
+	int rec_count_func=rec_count;
+	char lb[17];
+
+	while(1){
+		if(count < 29){
+			sprintf(lb,"%2d.C=%-7.3fnF <",count+1,(float)cap1000[count]/1000);
+			LCDprint(lb,1,1);
+			sprintf(lb,"%2d.C=%-7.3fnF  ",count+2,(float)cap1000[count+1]/1000);
+			LCDprint(lb,2,1);
+		}
+		else{
+			sprintf(lb,"%2d.C=%-7.3fnF <",count+1,(float)cap1000[count]/1000);
+			LCDprint(lb,1,1);
+			LCDprint("  ",2,1);
+		}
+		if(!Rec){
+			while(!Rec);
+			if(count > 0) count --;
+		}
+
+		if(!Mode){
+			while(!Mode);
+			if(count < 29) count ++;
+		}
+
+		if(!Nof){
+			while(!Nof);
+			rec_count_func=delete(cap1000, rec_count_func, count);
+		}
+
+		if(!Record_page){
+			while(!Record_page);
+			return rec_count_func;
+		}
+	}
+}
+
+void man_set(int* error, int* cap_chk){
+	char lb[17];
+	int i;
+	int buffer;
+	int multi;
+	printf("Enter the Capacitance to check(nF, int):");
+	fflush(stdout); // GCC peculiarities: need to flush stdout to get string out without a '\n'
+	egets_echo(lb, sizeof(lb));
+	printf("\r\n");
+	for(i=0; i<sizeof(lb); i++)
+	{
+		if(lb[i]=='\n') lb[i]=0;
+		if(lb[i]=='\r') lb[i]=0;
+	}
+	buffer = 0;
+	multi = 1;
+	for(i=strlen(lb)-1; i>=0;i--){
+		buffer += ((lb[i])-'0')*multi; 
+		multi *= 10;
+	}
+	*cap_chk = buffer;
+
+	printf("Enter the Error to check(%%, int):");
+	fflush(stdout); // GCC peculiarities: need to flush stdout to get string out without a '\n'
+	egets_echo(lb, sizeof(lb));
+	printf("\r\n");
+	for(i=0; i<sizeof(lb); i++)
+	{
+		if(lb[i]=='\n') lb[i]=0;
+		if(lb[i]=='\r') lb[i]=0;
+	}
+
+	buffer = 0;
+	multi = 1;
+	for(i=strlen(lb)-1; i>=0;i--){
+		buffer += ((lb[i])-'0')*multi; 
+		multi *= 10;
+	}
+	*error = buffer;
+}
+
+void setting_page(int* error_percent, int* cap_chk, int* error_preset, int* cap_chk_preset){
+	int err_count = 0;
+	int cap_count = 0;
+	char lb[17];
+
+	while(1){
+		sprintf(lb,"Cap_chk:  %4dnF ",*(cap_chk));
+		LCDprint(lb,1,1);
+		sprintf(lb,"Error:    %4d%% ",*(error_percent));
+		LCDprint(lb,2,1);
+
+		if(!Rec){
+			while(!Rec);
+			if(cap_count%6 == 5) cap_count = 0;
+			else cap_count++;
+			*cap_chk = cap_chk_preset[cap_count];
+		}
+
+		if(!Mode){
+			while(!Mode);
+			if(err_count%5 == 4) err_count = 0;
+			else err_count++;
+			*error_percent = error_preset[err_count];
+		}
+
+		if(!Setting_page){
+			while(!Setting_page);
+			return;
+		}
+
+		if(!Nof){
+			while(!Nof);
+			man_set(error_percent,cap_chk);
+		}
+
+	}
+}
+
+bool check_cap(float C, int error_percent, int cap_chk){
+	int diff10;
+	diff10 = 1000.0*fabsf(C-cap_chk)/cap_chk;
+	if(diff10/10.0>cap_chk){
+		LEDG_Set0;
+		LEDR_Set1;
+		printf("Capacitance:%.4fnF Err: %.4f\r",C,(float)diff10/100000.0);
+		return 0;
+	} 
+	else{
+		LEDG_Set1;
+		LEDR_Set0;
+		printf("Capacitance:%.4fnF Err: %.4f\r",C,(float)diff10/100000.0);
+		return 1;
+	}
+	
+}
+
 
 void main(void)
-{
+{	
+	bool chk_flag;
 	long int count;
-	float T, f, C;
+	float T, f, C;			// C in nF
 	char linebuffer[17];
+	int cap1000[30] ={0};
+	int mode = 0;
+	int rec_count = 0;
+
+	int error_percent = 5;
+	int cap_chk = 1;
+	int error_preset[5]={10,20,30,40,45};
+	int cap_chk_preset[6]={1,10,50,100,500,1000};
 
 	Configure_Pins();
 	LCD_4BIT();
@@ -195,9 +386,12 @@ void main(void)
 	Set_Pin_Output(0,6,0);
 	Set_Pin_Output(0,7,0);
 
-	waitms(500); // Wait for putty to start.
-	printf("Period measurement using the Systick free running counter.\r\n"
-	      "Connect signal to PA8 (pin 18).\r\n");
+	LCDprint("ELEC 291 Lab6: ",1,1);
+	waitms(300);
+	LCDprint("  Capactitance ",2,1);
+
+	waitms(800); // Wait for putty to start.
+	printf("Lab 6 Capacitance with STM32\r\n");
 	
 	while(1)
 	{
@@ -207,49 +401,65 @@ void main(void)
 			T=count/(F_CPU*100.0); // Since we have the time of 100 periods, we need to divide by 100
 			f=1.0/T;
 			C = 1.0/(f*factor) *10e9;
-			// printf("f=%.2fHz, count=%d            \r", f, count);
-			//                  1234567890123456
-			sprintf(linebuffer,"C=%.2fnF",C);
-			LCDprint(linebuffer,1,1);
-			sprintf(linebuffer,"f=%.2fHz",f);
-			LCDprint(linebuffer,2,1);
+			switch (mode){
+			case 0:
+					    //1234567890123456
+				LCDprint("Measure:      ON",1,1);
+				sprintf(linebuffer,"C=%.3fnF",C);
+				LCDprint(linebuffer,2,1);
+				printf("Capacitance:%.4fnF\r",C);
+				LEDG_Set0;
+				LEDR_Set0;
+				break;
+			case 1:
+					    //1234567890123456
+				LCDprint("Measure:     CHK",1,1);
+				chk_flag = check_cap(C, error_percent, cap_chk);
+				if(!chk_flag) sprintf(linebuffer,"C=%.3fnF  !!!",C);
+				else		  sprintf(linebuffer,"C=%.3fnF  OK!",C);
+				LCDprint(linebuffer,2,1);
+				break;
 
+			case 2:
+					    //1234567890123456
+				LCDprint("Measure:     OFF",1,1);
+				LCDprint("Press to start",2,1);
+				LEDG_Set1;
+				LEDR_Set1;
+				break;
+			
+			default:
+				break;
+			}
 		}
-		else
-		{
+		else{
 			printf("NO SIGNAL                     \r");
 			LCDprint("No signal",1,1);
 		}
 
-		if (!Button1){
-		 	while(!Button1);
-		 	printf("PA15(25) Pressed!\n\r");
+		if (!Nof){
+		 	while(!Nof);
 		}
-		if (!Button2){
-			while(!Button2);
-			printf("PA14(24) Pressed!\n\r");
+		if (!Setting_page){
+			while(!Setting_page);
+			setting_page(&error_percent, &cap_chk, error_preset, cap_chk_preset);
 	    }
-	    if (!Button3){
-			while(!Button3);
-			printf("PA13(23) Pressed!\n\r");
+	    if (!Mode){
+			while(!Mode);
+			//printf("PA13(23) Pressed!\n\r");
+			if (mode==2) mode = 0;
+			else mode++;
    		}
-		if (!Button4){
-		 	while(!Button4);
-		 	printf("PA12(22) Pressed!\n\r");
+		if (!Record_page){
+		 	while(!Record_page);
+			rec_count = rec_page(cap1000, rec_count);
 		}
-		if (!Button5){
-			while(!Button5);
-			printf("PA11(21) Pressed!\n\r");
+		if (!Rec){
+			while(!Rec);
+			rec_count = record(cap1000, rec_count, C);
 	    }
-
-		LED1_Set1;
-		LED2_Set1;
-		waitms(500);
-		LED1_Set0; 
-		LED2_Set0;
-
 
 		fflush(stdout); // GCC printf wants a \n in order to send something.  If \n is not present, we fflush(stdout)
-		waitms(200);
+		waitms(50);
 	}
 }

@@ -6,12 +6,30 @@ C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-
                               serial.o (__aeabi_idiv)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_dvmd_tls.o)
                               C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_divsi3.o) (__aeabi_idiv0)
+C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o)
+                              main.o (__aeabi_dcmpgt)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divsf3.o)
                               main.o (__aeabi_fdiv)
+C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(mulsf3.o)
+                              main.o (__aeabi_fmul)
+C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subsf3.o)
+                              main.o (__aeabi_fsub)
+C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixsfsi.o)
+                              main.o (__aeabi_f2iz)
+C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsisf.o)
+                              main.o (__aeabi_i2f)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divdf3.o)
                               main.o (__aeabi_ddiv)
+C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(eqdf2.o)
+                              C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o) (__eqdf2)
+C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(gedf2.o)
+                              C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o) (__gedf2)
+C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(ledf2.o)
+                              C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o) (__ledf2)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(muldf3.o)
                               main.o (__aeabi_dmul)
+C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixdfsi.o)
+                              main.o (__aeabi_d2iz)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsidf.o)
                               main.o (__aeabi_i2d)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(extendsfdf2.o)
@@ -33,7 +51,7 @@ C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
                               C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o) (__retarget_lock_init_recursive)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memset.o)
-                              C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o) (memset)
+                              main.o (memset)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-freer.o)
                               C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fflush.o) (_free_r)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-mallocr.o)
@@ -53,7 +71,7 @@ C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
                               C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o) (__sread)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-strlen.o)
-                              C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o) (strlen)
+                              main.o (strlen)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wbuf.o)
                               C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-puts.o) (__swbuf_r)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-writer.o)
@@ -124,22 +142,12 @@ C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-
                               C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o) (__gnu_thumb1_case_uqi)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_thumb1_case_shi.o)
                               C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_i.o) (__gnu_thumb1_case_shi)
-C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o)
-                              C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o) (__aeabi_dcmpeq)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(adddf3.o)
                               C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o) (__aeabi_dadd)
-C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(eqdf2.o)
-                              C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o) (__eqdf2)
-C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(gedf2.o)
-                              C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o) (__gedf2)
-C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(ledf2.o)
-                              C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o) (__ledf2)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subdf3.o)
                               C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o) (__aeabi_dsub)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(unorddf2.o)
                               C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o) (__aeabi_dcmpun)
-C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixdfsi.o)
-                              C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o) (__aeabi_d2iz)
 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatunsidf.o)
                               C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o) (__aeabi_ui2d)
 
@@ -165,7 +173,7 @@ LOAD C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp
 LOAD C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libm.a
 END GROUP
 
-.text           0x08000000     0x79ec
+.text           0x08000000     0x8a94
  *(.vectors)
  .vectors       0x08000000       0xb8 startup.o
                 0x08000000                Vectors
@@ -174,7 +182,7 @@ END GROUP
                 0x080000b8       0x28 startup.o
                 0x080000b8                ResetInit
  *(.text*)
- .text          0x080000e0      0x688 main.o
+ .text          0x080000e0      0xf24 main.o
                 0x080000e0                delay
                 0x080000fe                Configure_Pins
                 0x08000204                wait_1ms
@@ -182,624 +190,639 @@ END GROUP
                 0x0800025e                Set_Pin_Input
                 0x0800031c                Set_Pin_Output
                 0x080003d4                GetPeriod
-                0x080004d0                main
- .text          0x08000768      0x1a8 startup.o
-                0x080007e0                initClock
-                0x080008e8                EXTI2_3_Handler
-                0x080008e8                TIM21_Handler
-                0x080008e8                SysTick_Handler
-                0x080008e8                I2C1_Handler
-                0x080008e8                PendSV_Handler
-                0x080008e8                NMI_Handler
-                0x080008e8                WWDG_Handler
-                0x080008e8                RTC_Handler
-                0x080008e8                EXTI4_15_Handler
-                0x080008e8                TIM2_Handler
-                0x080008e8                DMA_CH4_5_6_7_Handler
-                0x080008e8                Default_Handler
-                0x080008e8                LPUART1_Handler
-                0x080008e8                FLASH_Handler
-                0x080008e8                EXTI0_1_Handler
-                0x080008e8                DMA_CH1_Handler
-                0x080008e8                SPI2_Handler
-                0x080008e8                DMA_CH2_3_Handler
-                0x080008e8                I2C2_Handler
-                0x080008e8                SVC_Handler
-                0x080008e8                LPTIM1_Handler
-                0x080008e8                USART2_Handler
-                0x080008e8                SPI1_Handler
-                0x080008e8                RCC_Handler
-                0x080008e8                PVD_Handler
-                0x080008e8                TIM6_Handler
-                0x080008e8                TIM22_Handler
-                0x080008e8                ADC_COMP_Handler
-                0x080008fc                Hard_Fault_Handler
- .text          0x08000910      0x5b4 serial.o
-                0x08000910                ReadCom
-                0x08000984                WriteCom
-                0x08000a24                initUART
-                0x08000b74                USART1_Handler
-                0x08000ba0                usart_rx
-                0x08000bd0                usart_tx
-                0x08000c38                PutBuf
-                0x08000c9a                GetBuf
-                0x08000cf0                GetBufCount
-                0x08000d04                eputs
-                0x08000d40                eputc
-                0x08000d5e                egetc
-                0x08000d78                egets
-                0x08000e04                egetc_echo
-                0x08000e2a                egets_echo
- .text          0x08000ec4      0x29c newlib_stubs.o
-                0x08000ec4                _exit
-                0x08000ece                _close
-                0x08000ee2                _execve
-                0x08000f04                _fork
-                0x08000f1c                _fstat
-                0x08000f38                _getpid
-                0x08000f44                _kill
-                0x08000f64                _link
-                0x08000f84                _lseek
-                0x08000f9a                _stat
-                0x08000fb6                _times
-                0x08000fca                _unlink
-                0x08000fe8                _wait
-                0x08001008                _isatty
-                0x08001030                _sbrk
-                0x08001094                _read
-                0x0800110c                _write
- .text          0x08001160      0x42c lcd.o
-                0x08001160                Delay_us
-                0x080011c0                waitms_lcd
-                0x0800120c                LCD_pulse
-                0x0800123c                LCD_byte
-                0x080013be                WriteData
-                0x080013f2                WriteCommand
-                0x08001426                LCD_4BIT
-                0x08001470                LCDprint
-                0x080014ec                LCDprint1
- .text          0x0800158c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libnosys.a(errno.o)
- .text          0x0800158c      0x1d4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_divsi3.o)
-                0x0800158c                __divsi3
-                0x0800158c                __aeabi_idiv
-                0x08001758                __aeabi_idivmod
- .text          0x08001760        0x4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_dvmd_tls.o)
-                0x08001760                __aeabi_idiv0
-                0x08001760                __aeabi_ldiv0
- .text          0x08001764      0x230 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divsf3.o)
-                0x08001764                __aeabi_fdiv
- .text          0x08001994      0x5ec C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divdf3.o)
-                0x08001994                __aeabi_ddiv
- .text          0x08001f80      0x4d8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(muldf3.o)
-                0x08001f80                __aeabi_dmul
- .text          0x08002458       0x60 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsidf.o)
-                0x08002458                __aeabi_i2d
- .text          0x080024b8       0x90 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(extendsfdf2.o)
-                0x080024b8                __aeabi_f2d
- .text          0x08002548      0x110 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(truncdfsf2.o)
-                0x08002548                __aeabi_d2f
- .text          0x08002658      0x114 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_udivsi3.o)
-                0x08002658                __aeabi_uidiv
-                0x08002658                __udivsi3
-                0x08002764                __aeabi_uidivmod
- .text          0x0800276c       0x3c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_clzsi2.o)
-                0x0800276c                __clzsi2
- .text          0x080027a8        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fflush.o)
+                0x080004d0                record
+                0x08000538                delete
+                0x0800061c                rec_page
+                0x080007d0                man_set
+                0x08000964                setting_page
+                0x08000a9c                check_cap
+                0x08000be8                main
+ .text          0x08001004      0x1a8 startup.o
+                0x0800107c                initClock
+                0x08001184                EXTI2_3_Handler
+                0x08001184                TIM21_Handler
+                0x08001184                SysTick_Handler
+                0x08001184                I2C1_Handler
+                0x08001184                PendSV_Handler
+                0x08001184                NMI_Handler
+                0x08001184                WWDG_Handler
+                0x08001184                RTC_Handler
+                0x08001184                EXTI4_15_Handler
+                0x08001184                TIM2_Handler
+                0x08001184                DMA_CH4_5_6_7_Handler
+                0x08001184                Default_Handler
+                0x08001184                LPUART1_Handler
+                0x08001184                FLASH_Handler
+                0x08001184                EXTI0_1_Handler
+                0x08001184                DMA_CH1_Handler
+                0x08001184                SPI2_Handler
+                0x08001184                DMA_CH2_3_Handler
+                0x08001184                I2C2_Handler
+                0x08001184                SVC_Handler
+                0x08001184                LPTIM1_Handler
+                0x08001184                USART2_Handler
+                0x08001184                SPI1_Handler
+                0x08001184                RCC_Handler
+                0x08001184                PVD_Handler
+                0x08001184                TIM6_Handler
+                0x08001184                TIM22_Handler
+                0x08001184                ADC_COMP_Handler
+                0x08001198                Hard_Fault_Handler
+ .text          0x080011ac      0x5b4 serial.o
+                0x080011ac                ReadCom
+                0x08001220                WriteCom
+                0x080012c0                initUART
+                0x08001410                USART1_Handler
+                0x0800143c                usart_rx
+                0x0800146c                usart_tx
+                0x080014d4                PutBuf
+                0x08001536                GetBuf
+                0x0800158c                GetBufCount
+                0x080015a0                eputs
+                0x080015dc                eputc
+                0x080015fa                egetc
+                0x08001614                egets
+                0x080016a0                egetc_echo
+                0x080016c6                egets_echo
+ .text          0x08001760      0x29c newlib_stubs.o
+                0x08001760                _exit
+                0x0800176a                _close
+                0x0800177e                _execve
+                0x080017a0                _fork
+                0x080017b8                _fstat
+                0x080017d4                _getpid
+                0x080017e0                _kill
+                0x08001800                _link
+                0x08001820                _lseek
+                0x08001836                _stat
+                0x08001852                _times
+                0x08001866                _unlink
+                0x08001884                _wait
+                0x080018a4                _isatty
+                0x080018cc                _sbrk
+                0x08001930                _read
+                0x080019a8                _write
+ .text          0x080019fc      0x42c lcd.o
+                0x080019fc                Delay_us
+                0x08001a5c                waitms_lcd
+                0x08001aa8                LCD_pulse
+                0x08001ad8                LCD_byte
+                0x08001c5a                WriteData
+                0x08001c8e                WriteCommand
+                0x08001cc2                LCD_4BIT
+                0x08001d0c                LCDprint
+                0x08001d88                LCDprint1
+ .text          0x08001e28        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libnosys.a(errno.o)
+ .text          0x08001e28      0x1d4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_divsi3.o)
+                0x08001e28                __divsi3
+                0x08001e28                __aeabi_idiv
+                0x08001ff4                __aeabi_idivmod
+ .text          0x08001ffc        0x4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_dvmd_tls.o)
+                0x08001ffc                __aeabi_idiv0
+                0x08001ffc                __aeabi_ldiv0
+ .text          0x08002000       0x7c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o)
+                0x08002000                __aeabi_cdrcmple
+                0x08002010                __aeabi_cdcmple
+                0x08002010                __aeabi_cdcmpeq
+                0x08002020                __aeabi_dcmpeq
+                0x0800202c                __aeabi_dcmplt
+                0x08002040                __aeabi_dcmple
+                0x08002054                __aeabi_dcmpgt
+                0x08002068                __aeabi_dcmpge
+ .text          0x0800207c      0x230 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divsf3.o)
+                0x0800207c                __aeabi_fdiv
+ .text          0x080022ac      0x24c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(mulsf3.o)
+                0x080022ac                __aeabi_fmul
+ .text          0x080024f8      0x35c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subsf3.o)
+                0x080024f8                __aeabi_fsub
+ .text          0x08002854       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixsfsi.o)
+                0x08002854                __aeabi_f2iz
+ .text          0x08002894       0x9c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsisf.o)
+                0x08002894                __aeabi_i2f
+ .text          0x08002930      0x5ec C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divdf3.o)
+                0x08002930                __aeabi_ddiv
+ .text          0x08002f1c       0x84 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(eqdf2.o)
+                0x08002f1c                __nedf2
+                0x08002f1c                __eqdf2
+ .text          0x08002fa0       0xcc C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(gedf2.o)
+                0x08002fa0                __gedf2
+                0x08002fa0                __gtdf2
+ .text          0x0800306c       0xc8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(ledf2.o)
+                0x0800306c                __ledf2
+                0x0800306c                __ltdf2
+ .text          0x08003134      0x4d8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(muldf3.o)
+                0x08003134                __aeabi_dmul
+ .text          0x0800360c       0x6c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixdfsi.o)
+                0x0800360c                __aeabi_d2iz
+ .text          0x08003678       0x60 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsidf.o)
+                0x08003678                __aeabi_i2d
+ .text          0x080036d8       0x90 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(extendsfdf2.o)
+                0x080036d8                __aeabi_f2d
+ .text          0x08003768      0x110 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(truncdfsf2.o)
+                0x08003768                __aeabi_d2f
+ .text          0x08003878      0x114 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_udivsi3.o)
+                0x08003878                __aeabi_uidiv
+                0x08003878                __udivsi3
+                0x08003984                __aeabi_uidivmod
+ .text          0x0800398c       0x3c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_clzsi2.o)
+                0x0800398c                __clzsi2
+ .text          0x080039c8        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fflush.o)
  .text.__sflush_r
-                0x080027a8      0x118 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fflush.o)
-                0x080027a8                __sflush_r
+                0x080039c8      0x118 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fflush.o)
+                0x080039c8                __sflush_r
  .text._fflush_r
-                0x080028c0       0x80 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fflush.o)
-                0x080028c0                _fflush_r
- .text.fflush   0x08002940       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fflush.o)
-                0x08002940                fflush
- .text          0x0800296c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
- .text.std      0x0800296c       0x48 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08003ae0       0x80 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fflush.o)
+                0x08003ae0                _fflush_r
+ .text.fflush   0x08003b60       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fflush.o)
+                0x08003b60                fflush
+ .text          0x08003b8c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+ .text.std      0x08003b8c       0x48 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
  .text._cleanup_r
-                0x080029b4       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
-                0x080029b4                _cleanup_r
+                0x08003bd4       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08003bd4                _cleanup_r
  .text.__fp_lock
-                0x080029c4       0x18 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08003be4       0x18 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
  .text.__fp_unlock
-                0x080029dc       0x18 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08003bfc       0x18 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
  .text.__sfmoreglue
-                0x080029f4       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
-                0x080029f4                __sfmoreglue
+                0x08003c14       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08003c14                __sfmoreglue
  .text._cleanup
-                0x08002a20       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
-                0x08002a20                _cleanup
+                0x08003c40       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08003c40                _cleanup
  .text.__sfp_lock_acquire
-                0x08002a30       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
-                0x08002a30                __sfp_lock_acquire
+                0x08003c50       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08003c50                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x08002a40       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
-                0x08002a40                __sfp_lock_release
+                0x08003c60       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08003c60                __sfp_lock_release
  .text.__sinit_lock_acquire
-                0x08002a50       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
-                0x08002a50                __sinit_lock_acquire
+                0x08003c70       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08003c70                __sinit_lock_acquire
  .text.__sinit_lock_release
-                0x08002a60       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
-                0x08002a60                __sinit_lock_release
- .text.__sinit  0x08002a70       0x70 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
-                0x08002a70                __sinit
- .text.__sfp    0x08002ae0       0x90 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
-                0x08002ae0                __sfp
+                0x08003c80       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08003c80                __sinit_lock_release
+ .text.__sinit  0x08003c90       0x70 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08003c90                __sinit
+ .text.__sfp    0x08003d00       0x90 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08003d00                __sfp
  .text.__fp_lock_all
-                0x08002b70       0x1c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
-                0x08002b70                __fp_lock_all
+                0x08003d90       0x1c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08003d90                __fp_lock_all
  .text.__fp_unlock_all
-                0x08002b8c       0x1c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
-                0x08002b8c                __fp_unlock_all
- .text          0x08002ba8        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fwalk.o)
- .text._fwalk   0x08002ba8       0x36 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fwalk.o)
-                0x08002ba8                _fwalk
+                0x08003dac       0x1c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08003dac                __fp_unlock_all
+ .text          0x08003dc8        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fwalk.o)
+ .text._fwalk   0x08003dc8       0x36 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fwalk.o)
+                0x08003dc8                _fwalk
  .text._fwalk_reent
-                0x08002bde       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fwalk.o)
-                0x08002bde                _fwalk_reent
- .text          0x08002c1e        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-impure.o)
- .text          0x08002c1e        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
+                0x08003dfe       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fwalk.o)
+                0x08003dfe                _fwalk_reent
+ .text          0x08003e3e        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-impure.o)
+ .text          0x08003e3e        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
  .text.__retarget_lock_init
-                0x08002c1e        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
-                0x08002c1e                __retarget_lock_init
+                0x08003e3e        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
+                0x08003e3e                __retarget_lock_init
  .text.__retarget_lock_init_recursive
-                0x08002c20        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
-                0x08002c20                __retarget_lock_init_recursive
+                0x08003e40        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
+                0x08003e40                __retarget_lock_init_recursive
  .text.__retarget_lock_close
-                0x08002c22        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
-                0x08002c22                __retarget_lock_close
+                0x08003e42        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
+                0x08003e42                __retarget_lock_close
  .text.__retarget_lock_close_recursive
-                0x08002c24        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
-                0x08002c24                __retarget_lock_close_recursive
+                0x08003e44        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
+                0x08003e44                __retarget_lock_close_recursive
  .text.__retarget_lock_acquire
-                0x08002c26        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
-                0x08002c26                __retarget_lock_acquire
+                0x08003e46        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
+                0x08003e46                __retarget_lock_acquire
  .text.__retarget_lock_acquire_recursive
-                0x08002c28        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
-                0x08002c28                __retarget_lock_acquire_recursive
+                0x08003e48        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
+                0x08003e48                __retarget_lock_acquire_recursive
  .text.__retarget_lock_try_acquire
-                0x08002c2a        0x4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
-                0x08002c2a                __retarget_lock_try_acquire
+                0x08003e4a        0x4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
+                0x08003e4a                __retarget_lock_try_acquire
  .text.__retarget_lock_try_acquire_recursive
-                0x08002c2e        0x4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
-                0x08002c2e                __retarget_lock_try_acquire_recursive
+                0x08003e4e        0x4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
+                0x08003e4e                __retarget_lock_try_acquire_recursive
  .text.__retarget_lock_release
-                0x08002c32        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
-                0x08002c32                __retarget_lock_release
+                0x08003e52        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
+                0x08003e52                __retarget_lock_release
  .text.__retarget_lock_release_recursive
-                0x08002c34        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
-                0x08002c34                __retarget_lock_release_recursive
- .text          0x08002c36        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memset.o)
- .text.memset   0x08002c36       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memset.o)
-                0x08002c36                memset
- .text          0x08002c46        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-freer.o)
- *fill*         0x08002c46        0x2 
- .text._free_r  0x08002c48       0x94 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-freer.o)
-                0x08002c48                _free_r
- .text          0x08002cdc        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                0x08003e54        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
+                0x08003e54                __retarget_lock_release_recursive
+ .text          0x08003e56        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memset.o)
+ .text.memset   0x08003e56       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memset.o)
+                0x08003e56                memset
+ .text          0x08003e66        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-freer.o)
+ *fill*         0x08003e66        0x2 
+ .text._free_r  0x08003e68       0x94 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-freer.o)
+                0x08003e68                _free_r
+ .text          0x08003efc        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-mallocr.o)
  .text.sbrk_aligned
-                0x08002cdc       0x44 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                0x08003efc       0x44 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-mallocr.o)
  .text._malloc_r
-                0x08002d20       0xec C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-mallocr.o)
-                0x08002d20                _malloc_r
- .text          0x08002e0c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
- .text.__cvt    0x08002e0c       0xc6 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
-                0x08002e0c                __cvt
+                0x08003f40       0xec C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                0x08003f40                _malloc_r
+ .text          0x0800402c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
+ .text.__cvt    0x0800402c       0xc6 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x0800402c                __cvt
  .text.__exponent
-                0x08002ed2       0x8e C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
-                0x08002ed2                __exponent
+                0x080040f2       0x8e C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x080040f2                __exponent
  .text._printf_float
-                0x08002f60      0x484 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
-                0x08002f60                _printf_float
- .text          0x080033e4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08004180      0x484 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x08004180                _printf_float
+ .text          0x08004604        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .text._printf_common
-                0x080033e4       0xde C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x080033e4                _printf_common
- *fill*         0x080034c2        0x2 
+                0x08004604       0xde C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08004604                _printf_common
+ *fill*         0x080046e2        0x2 
  .text._printf_i
-                0x080034c4      0x224 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x080034c4                _printf_i
- .text          0x080036e8        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-printf.o)
+                0x080046e4      0x224 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x080046e4                _printf_i
+ .text          0x08004908        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-printf.o)
  .text._printf_r
-                0x080036e8       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-printf.o)
-                0x080036e8                _iprintf_r
-                0x080036e8                _printf_r
- .text.printf   0x08003710       0x34 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-printf.o)
-                0x08003710                iprintf
-                0x08003710                printf
- .text          0x08003744        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-puts.o)
- .text._puts_r  0x08003744       0xe4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-puts.o)
-                0x08003744                _puts_r
- .text.puts     0x08003828       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-puts.o)
-                0x08003828                puts
- .text          0x0800383c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sbrkr.o)
- .text._sbrk_r  0x0800383c       0x24 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sbrkr.o)
-                0x0800383c                _sbrk_r
- .text          0x08003860        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sprintf.o)
+                0x08004908       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-printf.o)
+                0x08004908                _iprintf_r
+                0x08004908                _printf_r
+ .text.printf   0x08004930       0x34 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-printf.o)
+                0x08004930                iprintf
+                0x08004930                printf
+ .text          0x08004964        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-puts.o)
+ .text._puts_r  0x08004964       0xe4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-puts.o)
+                0x08004964                _puts_r
+ .text.puts     0x08004a48       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-puts.o)
+                0x08004a48                puts
+ .text          0x08004a5c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x08004a5c       0x24 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sbrkr.o)
+                0x08004a5c                _sbrk_r
+ .text          0x08004a80        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sprintf.o)
  .text._sprintf_r
-                0x08003860       0x38 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sprintf.o)
-                0x08003860                _sprintf_r
-                0x08003860                _siprintf_r
- .text.sprintf  0x08003898       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sprintf.o)
-                0x08003898                siprintf
-                0x08003898                sprintf
- .text          0x080038d8        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
- .text.__sread  0x080038d8       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
-                0x080038d8                __sread
+                0x08004a80       0x38 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sprintf.o)
+                0x08004a80                _sprintf_r
+                0x08004a80                _siprintf_r
+ .text.sprintf  0x08004ab8       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sprintf.o)
+                0x08004ab8                siprintf
+                0x08004ab8                sprintf
+ .text          0x08004af8        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
+ .text.__sread  0x08004af8       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
+                0x08004af8                __sread
  .text.__seofread
-                0x08003900        0x4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
-                0x08003900                __seofread
+                0x08004b20        0x4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
+                0x08004b20                __seofread
  .text.__swrite
-                0x08003904       0x38 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
-                0x08003904                __swrite
- .text.__sseek  0x0800393c       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
-                0x0800393c                __sseek
+                0x08004b24       0x38 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
+                0x08004b24                __swrite
+ .text.__sseek  0x08004b5c       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
+                0x08004b5c                __sseek
  .text.__sclose
-                0x08003968        0xc C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
-                0x08003968                __sclose
- .text          0x08003974        0xe C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-strlen.o)
-                0x08003974                strlen
- .text          0x08003982        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wbuf.o)
- *fill*         0x08003982        0x2 
+                0x08004b88        0xc C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
+                0x08004b88                __sclose
+ .text          0x08004b94        0xe C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-strlen.o)
+                0x08004b94                strlen
+ .text          0x08004ba2        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wbuf.o)
+ *fill*         0x08004ba2        0x2 
  .text.__swbuf_r
-                0x08003984       0xac C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wbuf.o)
-                0x08003984                __swbuf_r
- .text.__swbuf  0x08003a30       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wbuf.o)
-                0x08003a30                __swbuf
- .text          0x08003a44        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-writer.o)
+                0x08004ba4       0xac C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wbuf.o)
+                0x08004ba4                __swbuf_r
+ .text.__swbuf  0x08004c50       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wbuf.o)
+                0x08004c50                __swbuf
+ .text          0x08004c64        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-writer.o)
  .text._write_r
-                0x08003a44       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-writer.o)
-                0x08003a44                _write_r
- .text          0x08003a6c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wsetup.o)
+                0x08004c64       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-writer.o)
+                0x08004c64                _write_r
+ .text          0x08004c8c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wsetup.o)
  .text.__swsetup_r
-                0x08003a6c       0xf0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wsetup.o)
-                0x08003a6c                __swsetup_r
- .text          0x08003b5c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-closer.o)
+                0x08004c8c       0xf0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wsetup.o)
+                0x08004c8c                __swsetup_r
+ .text          0x08004d7c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-closer.o)
  .text._close_r
-                0x08003b5c       0x24 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-closer.o)
-                0x08003b5c                _close_r
- .text          0x08003b80        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
- .text.quorem   0x08003b80      0x116 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
- *fill*         0x08003c96        0x2 
- .text._dtoa_r  0x08003c98      0xc34 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
-                0x08003c98                _dtoa_r
- .text          0x080048cc        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-localeconv.o)
+                0x08004d7c       0x24 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-closer.o)
+                0x08004d7c                _close_r
+ .text          0x08004da0        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
+ .text.quorem   0x08004da0      0x116 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
+ *fill*         0x08004eb6        0x2 
+ .text._dtoa_r  0x08004eb8      0xc34 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
+                0x08004eb8                _dtoa_r
+ .text          0x08005aec        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-localeconv.o)
  .text.__localeconv_l
-                0x080048cc        0x4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-localeconv.o)
-                0x080048cc                __localeconv_l
+                0x08005aec        0x4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-localeconv.o)
+                0x08005aec                __localeconv_l
  .text._localeconv_r
-                0x080048d0        0x8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-localeconv.o)
-                0x080048d0                _localeconv_r
+                0x08005af0        0x8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-localeconv.o)
+                0x08005af0                _localeconv_r
  .text.localeconv
-                0x080048d8        0x8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-localeconv.o)
-                0x080048d8                localeconv
- .text          0x080048e0        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lseekr.o)
+                0x08005af8        0x8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-localeconv.o)
+                0x08005af8                localeconv
+ .text          0x08005b00        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lseekr.o)
  .text._lseek_r
-                0x080048e0       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lseekr.o)
-                0x080048e0                _lseek_r
- .text          0x08004908        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-makebuf.o)
+                0x08005b00       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lseekr.o)
+                0x08005b00                _lseek_r
+ .text          0x08005b28        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-makebuf.o)
  .text.__swhatbuf_r
-                0x08004908       0x50 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-makebuf.o)
-                0x08004908                __swhatbuf_r
+                0x08005b28       0x50 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-makebuf.o)
+                0x08005b28                __swhatbuf_r
  .text.__smakebuf_r
-                0x08004958       0x88 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-makebuf.o)
-                0x08004958                __smakebuf_r
- .text          0x080049e0        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-malloc.o)
- .text.malloc   0x080049e0       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-malloc.o)
-                0x080049e0                malloc
- .text.free     0x080049f4       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-malloc.o)
-                0x080049f4                free
- .text          0x08004a08        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memchr-stub.o)
- .text.memchr   0x08004a08       0x16 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memchr-stub.o)
-                0x08004a08                memchr
- .text          0x08004a1e        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memcpy-stub.o)
- .text.memcpy   0x08004a1e       0x12 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memcpy-stub.o)
-                0x08004a1e                memcpy
- .text          0x08004a30        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mlock.o)
+                0x08005b78       0x88 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-makebuf.o)
+                0x08005b78                __smakebuf_r
+ .text          0x08005c00        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-malloc.o)
+ .text.malloc   0x08005c00       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-malloc.o)
+                0x08005c00                malloc
+ .text.free     0x08005c14       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-malloc.o)
+                0x08005c14                free
+ .text          0x08005c28        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memchr-stub.o)
+ .text.memchr   0x08005c28       0x16 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memchr-stub.o)
+                0x08005c28                memchr
+ .text          0x08005c3e        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memcpy-stub.o)
+ .text.memcpy   0x08005c3e       0x12 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memcpy-stub.o)
+                0x08005c3e                memcpy
+ .text          0x08005c50        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mlock.o)
  .text.__malloc_lock
-                0x08004a30       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mlock.o)
-                0x08004a30                __malloc_lock
+                0x08005c50       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mlock.o)
+                0x08005c50                __malloc_lock
  .text.__malloc_unlock
-                0x08004a40       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mlock.o)
-                0x08004a40                __malloc_unlock
- .text          0x08004a50        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
- .text._Balloc  0x08004a50       0x88 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08004a50                _Balloc
- .text._Bfree   0x08004ad8       0x48 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08004ad8                _Bfree
+                0x08005c60       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mlock.o)
+                0x08005c60                __malloc_unlock
+ .text          0x08005c70        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+ .text._Balloc  0x08005c70       0x88 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08005c70                _Balloc
+ .text._Bfree   0x08005cf8       0x48 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08005cf8                _Bfree
  .text.__multadd
-                0x08004b20       0x88 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08004b20                __multadd
- .text.__s2b    0x08004ba8       0x98 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08004ba8                __s2b
+                0x08005d40       0x88 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08005d40                __multadd
+ .text.__s2b    0x08005dc8       0x98 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08005dc8                __s2b
  .text.__hi0bits
-                0x08004c40       0x34 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08004c40                __hi0bits
+                0x08005e60       0x34 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08005e60                __hi0bits
  .text.__lo0bits
-                0x08004c74       0x5c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08004c74                __lo0bits
- .text.__i2b    0x08004cd0       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08004cd0                __i2b
+                0x08005e94       0x5c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08005e94                __lo0bits
+ .text.__i2b    0x08005ef0       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08005ef0                __i2b
  .text.__multiply
-                0x08004cfc      0x160 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08004cfc                __multiply
+                0x08005f1c      0x160 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08005f1c                __multiply
  .text.__pow5mult
-                0x08004e5c       0xb8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08004e5c                __pow5mult
+                0x0800607c       0xb8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x0800607c                __pow5mult
  .text.__lshift
-                0x08004f14       0xdc C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08004f14                __lshift
- .text.__mcmp   0x08004ff0       0x36 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08004ff0                __mcmp
- *fill*         0x08005026        0x2 
- .text.__mdiff  0x08005028      0x130 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08005028                __mdiff
- .text.__ulp    0x08005158       0x48 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08005158                __ulp
- .text.__b2d    0x080051a0       0xa0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x080051a0                __b2d
- .text.__d2b    0x08005240       0xc8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08005240                __d2b
- .text.__ratio  0x08005308       0x52 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08005308                __ratio
- *fill*         0x0800535a        0x2 
+                0x08006134       0xdc C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08006134                __lshift
+ .text.__mcmp   0x08006210       0x36 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08006210                __mcmp
+ *fill*         0x08006246        0x2 
+ .text.__mdiff  0x08006248      0x130 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08006248                __mdiff
+ .text.__ulp    0x08006378       0x48 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08006378                __ulp
+ .text.__b2d    0x080063c0       0xa0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x080063c0                __b2d
+ .text.__d2b    0x08006460       0xc8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08006460                __d2b
+ .text.__ratio  0x08006528       0x52 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08006528                __ratio
+ *fill*         0x0800657a        0x2 
  .text._mprec_log10
-                0x0800535c       0x34 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x0800535c                _mprec_log10
+                0x0800657c       0x34 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x0800657c                _mprec_log10
  .text.__copybits
-                0x08005390       0x42 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08005390                __copybits
+                0x080065b0       0x42 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x080065b0                __copybits
  .text.__any_on
-                0x080053d2       0x46 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x080053d2                __any_on
- .text          0x08005418        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-callocr.o)
+                0x080065f2       0x46 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x080065f2                __any_on
+ .text          0x08006638        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-callocr.o)
  .text._calloc_r
-                0x08005418       0x58 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-callocr.o)
-                0x08005418                _calloc_r
- .text          0x08005470        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x08006638       0x58 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-callocr.o)
+                0x08006638                _calloc_r
+ .text          0x08006690        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-svfprintf.o)
  .text.__ssputs_r
-                0x08005470       0xc4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x08005470                __ssputs_r
+                0x08006690       0xc4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x08006690                __ssputs_r
  .text.__ssprint_r
-                0x08005534      0x100 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x08005534                __ssprint_r
+                0x08006754      0x100 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x08006754                __ssprint_r
  .text._svfprintf_r
-                0x08005634      0x200 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x08005634                _svfiprintf_r
-                0x08005634                _svfprintf_r
- .text          0x08005834        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x08006854      0x200 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x08006854                _svfiprintf_r
+                0x08006854                _svfprintf_r
+ .text          0x08006a54        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
  .text.__sfputc_r
-                0x08005834       0x2a C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x08006a54       0x2a C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x0800585e       0x24 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
-                0x0800585e                __sfputs_r
+                0x08006a7e       0x24 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x08006a7e                __sfputs_r
  .text.__sprint_r
-                0x08005882       0x1c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
-                0x08005882                __sprint_r
- *fill*         0x0800589e        0x2 
+                0x08006aa2       0x1c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x08006aa2                __sprint_r
+ *fill*         0x08006abe        0x2 
  .text._vfprintf_r
-                0x080058a0      0x274 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
-                0x080058a0                _vfprintf_r
-                0x080058a0                _vfiprintf_r
+                0x08006ac0      0x274 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x08006ac0                _vfprintf_r
+                0x08006ac0                _vfiprintf_r
  .text.vfprintf
-                0x08005b14       0x18 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
-                0x08005b14                vfprintf
-                0x08005b14                vfiprintf
- .text          0x08005b2c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-readr.o)
- .text._read_r  0x08005b2c       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-readr.o)
-                0x08005b2c                _read_r
- .text          0x08005b54        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-assert.o)
+                0x08006d34       0x18 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x08006d34                vfprintf
+                0x08006d34                vfiprintf
+ .text          0x08006d4c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-readr.o)
+ .text._read_r  0x08006d4c       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-readr.o)
+                0x08006d4c                _read_r
+ .text          0x08006d74        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-assert.o)
  .text.__assert_func
-                0x08005b54       0x3c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-assert.o)
-                0x08005b54                __assert_func
+                0x08006d74       0x3c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-assert.o)
+                0x08006d74                __assert_func
  .text.__assert
-                0x08005b90        0xa C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-assert.o)
-                0x08005b90                __assert
- .text          0x08005b9a        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fprintf.o)
+                0x08006db0        0xa C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-assert.o)
+                0x08006db0                __assert
+ .text          0x08006dba        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fprintf.o)
  .text._fprintf_r
-                0x08005b9a       0x16 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fprintf.o)
-                0x08005b9a                _fiprintf_r
-                0x08005b9a                _fprintf_r
- .text.fprintf  0x08005bb0       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fprintf.o)
-                0x08005bb0                fiprintf
-                0x08005bb0                fprintf
- .text          0x08005bd0        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fstatr.o)
+                0x08006dba       0x16 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fprintf.o)
+                0x08006dba                _fiprintf_r
+                0x08006dba                _fprintf_r
+ .text.fprintf  0x08006dd0       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fprintf.o)
+                0x08006dd0                fiprintf
+                0x08006dd0                fprintf
+ .text          0x08006df0        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fstatr.o)
  .text._fstat_r
-                0x08005bd0       0x24 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fstatr.o)
-                0x08005bd0                _fstat_r
- .text          0x08005bf4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fvwrite.o)
+                0x08006df0       0x24 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fstatr.o)
+                0x08006df0                _fstat_r
+ .text          0x08006e14        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fvwrite.o)
  .text.__sfvwrite_r
-                0x08005bf4      0x2d0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fvwrite.o)
-                0x08005bf4                __sfvwrite_r
- .text          0x08005ec4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-isattyr.o)
+                0x08006e14      0x2d0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fvwrite.o)
+                0x08006e14                __sfvwrite_r
+ .text          0x080070e4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-isattyr.o)
  .text._isatty_r
-                0x08005ec4       0x24 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-isattyr.o)
-                0x08005ec4                _isatty_r
- .text          0x08005ee8        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
+                0x080070e4       0x24 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-isattyr.o)
+                0x080070e4                _isatty_r
+ .text          0x08007108        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
  .text._setlocale_r
-                0x08005ee8       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
-                0x08005ee8                _setlocale_r
+                0x08007108       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
+                0x08007108                _setlocale_r
  .text.__locale_mb_cur_max
-                0x08005f28       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
-                0x08005f28                __locale_mb_cur_max
+                0x08007148       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
+                0x08007148                __locale_mb_cur_max
  .text.setlocale
-                0x08005f38       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
-                0x08005f38                setlocale
- .text          0x08005f4c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mbtowc_r.o)
+                0x08007158       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
+                0x08007158                setlocale
+ .text          0x0800716c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mbtowc_r.o)
  .text._mbtowc_r
-                0x08005f4c       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mbtowc_r.o)
-                0x08005f4c                _mbtowc_r
+                0x0800716c       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mbtowc_r.o)
+                0x0800716c                _mbtowc_r
  .text.__ascii_mbtowc
-                0x08005f60       0x24 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mbtowc_r.o)
-                0x08005f60                __ascii_mbtowc
- .text          0x08005f84        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memmove.o)
- .text.memmove  0x08005f84       0x26 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memmove.o)
-                0x08005f84                memmove
- .text          0x08005faa        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                0x08007180       0x24 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mbtowc_r.o)
+                0x08007180                __ascii_mbtowc
+ .text          0x080071a4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memmove.o)
+ .text.memmove  0x080071a4       0x26 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memmove.o)
+                0x080071a4                memmove
+ .text          0x080071ca        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-reallocr.o)
  .text._realloc_r
-                0x08005faa       0x5e C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-reallocr.o)
-                0x08005faa                _realloc_r
- .text          0x08006008       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-strcmp.o)
-                0x08006008                strcmp
- .text          0x0800601c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wctomb_r.o)
+                0x080071ca       0x5e C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                0x080071ca                _realloc_r
+ .text          0x08007228       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-strcmp.o)
+                0x08007228                strcmp
+ .text          0x0800723c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wctomb_r.o)
  .text._wctomb_r
-                0x0800601c       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wctomb_r.o)
-                0x0800601c                _wctomb_r
+                0x0800723c       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wctomb_r.o)
+                0x0800723c                _wctomb_r
  .text.__ascii_wctomb
-                0x0800602c       0x1a C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wctomb_r.o)
-                0x0800602c                __ascii_wctomb
- .text          0x08006046        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-abort.o)
- .text.abort    0x08006046        0xe C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-abort.o)
-                0x08006046                abort
- .text          0x08006054        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-ctype_.o)
- .text          0x08006054        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-msizer.o)
+                0x0800724c       0x1a C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wctomb_r.o)
+                0x0800724c                __ascii_wctomb
+ .text          0x08007266        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-abort.o)
+ .text.abort    0x08007266        0xe C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-abort.o)
+                0x08007266                abort
+ .text          0x08007274        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-ctype_.o)
+ .text          0x08007274        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-msizer.o)
  .text._malloc_usable_size_r
-                0x08006054       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-msizer.o)
-                0x08006054                _malloc_usable_size_r
- .text          0x08006064        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
+                0x08007274       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-msizer.o)
+                0x08007274                _malloc_usable_size_r
+ .text          0x08007284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
  .text._init_signal_r
-                0x08006064       0x2a C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
-                0x08006064                _init_signal_r
+                0x08007284       0x2a C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
+                0x08007284                _init_signal_r
  .text._signal_r
-                0x0800608e       0x32 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
-                0x0800608e                _signal_r
+                0x080072ae       0x32 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
+                0x080072ae                _signal_r
  .text._raise_r
-                0x080060c0       0x54 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
-                0x080060c0                _raise_r
+                0x080072e0       0x54 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
+                0x080072e0                _raise_r
  .text.__sigtramp_r
-                0x08006114       0x46 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
-                0x08006114                __sigtramp_r
- *fill*         0x0800615a        0x2 
- .text.raise    0x0800615c       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
-                0x0800615c                raise
- .text.signal   0x08006170       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
-                0x08006170                signal
+                0x08007334       0x46 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
+                0x08007334                __sigtramp_r
+ *fill*         0x0800737a        0x2 
+ .text.raise    0x0800737c       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
+                0x0800737c                raise
+ .text.signal   0x08007390       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
+                0x08007390                signal
  .text._init_signal
-                0x08006184       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
-                0x08006184                _init_signal
+                0x080073a4       0x10 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
+                0x080073a4                _init_signal
  .text.__sigtramp
-                0x08006194       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
-                0x08006194                __sigtramp
- .text          0x080061a8        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signalr.o)
- .text._kill_r  0x080061a8       0x24 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signalr.o)
-                0x080061a8                _kill_r
+                0x080073b4       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
+                0x080073b4                __sigtramp
+ .text          0x080073c8        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signalr.o)
+ .text._kill_r  0x080073c8       0x24 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signalr.o)
+                0x080073c8                _kill_r
  .text._getpid_r
-                0x080061cc        0x8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signalr.o)
-                0x080061cc                _getpid_r
- .text          0x080061d4       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_thumb1_case_uqi.o)
-                0x080061d4                __gnu_thumb1_case_uqi
- .text          0x080061e8       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_thumb1_case_shi.o)
-                0x080061e8                __gnu_thumb1_case_shi
- .text          0x080061fc       0x7c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o)
-                0x080061fc                __aeabi_cdrcmple
-                0x0800620c                __aeabi_cdcmple
-                0x0800620c                __aeabi_cdcmpeq
-                0x0800621c                __aeabi_dcmpeq
-                0x08006228                __aeabi_dcmplt
-                0x0800623c                __aeabi_dcmple
-                0x08006250                __aeabi_dcmpgt
-                0x08006264                __aeabi_dcmpge
- .text          0x08006278      0x678 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(adddf3.o)
-                0x08006278                __aeabi_dadd
- .text          0x080068f0       0x84 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(eqdf2.o)
-                0x080068f0                __nedf2
-                0x080068f0                __eqdf2
- .text          0x08006974       0xcc C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(gedf2.o)
-                0x08006974                __gedf2
-                0x08006974                __gtdf2
- .text          0x08006a40       0xc8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(ledf2.o)
-                0x08006a40                __ledf2
-                0x08006a40                __ltdf2
- .text          0x08006b08      0x724 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subdf3.o)
-                0x08006b08                __aeabi_dsub
- .text          0x0800722c       0x3c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(unorddf2.o)
-                0x0800722c                __aeabi_dcmpun
- .text          0x08007268       0x6c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixdfsi.o)
-                0x08007268                __aeabi_d2iz
- .text          0x080072d4       0x4c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatunsidf.o)
-                0x080072d4                __aeabi_ui2d
+                0x080073ec        0x8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signalr.o)
+                0x080073ec                _getpid_r
+ .text          0x080073f4       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_thumb1_case_uqi.o)
+                0x080073f4                __gnu_thumb1_case_uqi
+ .text          0x08007408       0x14 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_thumb1_case_shi.o)
+                0x08007408                __gnu_thumb1_case_shi
+ .text          0x0800741c      0x678 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(adddf3.o)
+                0x0800741c                __aeabi_dadd
+ .text          0x08007a94      0x724 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subdf3.o)
+                0x08007a94                __aeabi_dsub
+ .text          0x080081b8       0x3c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(unorddf2.o)
+                0x080081b8                __aeabi_dcmpun
+ .text          0x080081f4       0x4c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatunsidf.o)
+                0x080081f4                __aeabi_ui2d
  *(.rodata*)
- .rodata        0x08007320      0x108 main.o
- .rodata        0x08007428       0x7c startup.o
- .rodata        0x080074a4       0x80 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divsf3.o)
- .rodata        0x08007524       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divdf3.o)
- .rodata        0x08007564       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(muldf3.o)
+ .rodata        0x08008240      0x24c main.o
+ .rodata        0x0800848c       0x7c startup.o
+ .rodata        0x08008508       0x80 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divsf3.o)
+ .rodata        0x08008588       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(mulsf3.o)
+ .rodata        0x080085c8       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divdf3.o)
+ .rodata        0x08008608       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(muldf3.o)
  .rodata.__sf_fake_stderr
-                0x080075a4       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
-                0x080075a4                __sf_fake_stderr
+                0x08008648       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08008648                __sf_fake_stderr
  .rodata.__sf_fake_stdin
-                0x080075c4       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
-                0x080075c4                __sf_fake_stdin
+                0x08008668       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08008668                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x080075e4       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
-                0x080075e4                __sf_fake_stdout
+                0x08008688       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x08008688                __sf_fake_stdout
  .rodata._global_impure_ptr
-                0x08007604        0x4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-impure.o)
-                0x08007604                _global_impure_ptr
+                0x080086a8        0x4 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-impure.o)
+                0x080086a8                _global_impure_ptr
  .rodata._printf_float.str1.1
-                0x08007608       0x12 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x080086ac       0x12 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
  .rodata._printf_i.str1.1
-                0x0800761a       0x22 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x080086be       0x22 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .rodata._dtoa_r.str1.1
-                0x0800763c       0xb3 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
+                0x080086e0       0xb3 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
                                  0xb5 (size before relaxing)
  .rodata._Balloc.str1.1
-                0x080076ef       0x7f C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08008793       0x7f C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
                                  0x96 (size before relaxing)
  .rodata.__multadd.str1.1
-                0x0800776e       0x11 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
- *fill*         0x0800776e        0x2 
+                0x08008812       0x11 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+ *fill*         0x08008812        0x6 
  .rodata.__mprec_bigtens
-                0x08007770       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08007770                __mprec_bigtens
+                0x08008818       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08008818                __mprec_bigtens
  .rodata.__mprec_tens
-                0x08007798       0xc8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08007798                __mprec_tens
+                0x08008840       0xc8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08008840                __mprec_tens
  .rodata.__mprec_tinytens
-                0x08007860       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
-                0x08007860                __mprec_tinytens
- .rodata.p05.0  0x08007888        0xc C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08008908       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x08008908                __mprec_tinytens
+ .rodata.p05.0  0x08008930        0xc C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
  .rodata._svfprintf_r.str1.1
-                0x08007894       0x11 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0800893c       0x11 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata._vfprintf_r.str1.1
-                0x080078a5       0x11 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0800894d       0x11 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
  .rodata.__assert_func.str1.1
-                0x080078a5       0x3c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-assert.o)
+                0x0800894d       0x3c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-assert.o)
                                  0x3d (size before relaxing)
  .rodata._setlocale_r.str1.1
-                0x080078e1        0x8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
+                0x08008989        0x8 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
                                   0x9 (size before relaxing)
  .rodata.str1.1
-                0x080078e9        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
+                0x08008991        0x2 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
  .rodata._ctype_
-                0x080078eb      0x101 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-ctype_.o)
-                0x080078eb                _ctype_
-                0x080079ec                . = ALIGN (0x4)
-                0x080079ec                PROVIDE (__init_array_start = .)
+                0x08008993      0x101 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-ctype_.o)
+                0x08008993                _ctype_
+                0x08008a94                . = ALIGN (0x4)
+                0x08008a94                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
-                0x080079ec                PROVIDE (__init_array_end = .)
-                0x080079ec                . = ALIGN (0x4)
-                0x080079ec                _etext = .
+                0x08008a94                PROVIDE (__init_array_end = .)
+                0x08008a94                . = ALIGN (0x4)
+                0x08008a94                _etext = .
 
-.glue_7         0x080079ec        0x0
- .glue_7        0x080079ec        0x0 linker stubs
+.glue_7         0x08008a94        0x0
+ .glue_7        0x08008a94        0x0 linker stubs
 
-.glue_7t        0x080079ec        0x0
- .glue_7t       0x080079ec        0x0 linker stubs
+.glue_7t        0x08008a94        0x0
+ .glue_7t       0x08008a94        0x0 linker stubs
 
-.vfp11_veneer   0x080079ec        0x0
- .vfp11_veneer  0x080079ec        0x0 linker stubs
+.vfp11_veneer   0x08008a94        0x0
+ .vfp11_veneer  0x08008a94        0x0 linker stubs
 
-.v4_bx          0x080079ec        0x0
- .v4_bx         0x080079ec        0x0 linker stubs
+.v4_bx          0x08008a94        0x0
+ .v4_bx         0x08008a94        0x0 linker stubs
 
-.iplt           0x080079ec        0x0
- .iplt          0x080079ec        0x0 main.o
+.iplt           0x08008a94        0x0
+ .iplt          0x08008a94        0x0 main.o
 
-.rel.dyn        0x080079ec        0x0
- .rel.iplt      0x080079ec        0x0 main.o
+.rel.dyn        0x08008a94        0x0
+ .rel.iplt      0x08008a94        0x0 main.o
 
-.data           0x20000000      0x1d4 load address 0x080079ec
+.data           0x20000000      0x1d4 load address 0x08008a94
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _data = .
  *(.data*)
@@ -812,9 +835,18 @@ END GROUP
  .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libnosys.a(errno.o)
  .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_divsi3.o)
  .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_dvmd_tls.o)
+ .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o)
  .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divsf3.o)
+ .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(mulsf3.o)
+ .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subsf3.o)
+ .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixsfsi.o)
+ .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsisf.o)
  .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divdf3.o)
+ .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(eqdf2.o)
+ .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(gedf2.o)
+ .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(ledf2.o)
  .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(muldf3.o)
+ .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixdfsi.o)
  .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsidf.o)
  .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(extendsfdf2.o)
  .data          0x20000004        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(truncdfsf2.o)
@@ -879,22 +911,17 @@ END GROUP
  .data          0x200001d4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signalr.o)
  .data          0x200001d4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_thumb1_case_uqi.o)
  .data          0x200001d4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_thumb1_case_shi.o)
- .data          0x200001d4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o)
  .data          0x200001d4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(adddf3.o)
- .data          0x200001d4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(eqdf2.o)
- .data          0x200001d4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(gedf2.o)
- .data          0x200001d4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(ledf2.o)
  .data          0x200001d4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subdf3.o)
  .data          0x200001d4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(unorddf2.o)
- .data          0x200001d4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixdfsi.o)
  .data          0x200001d4        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatunsidf.o)
                 0x200001d4                . = ALIGN (0x4)
                 0x200001d4                _edata = .
 
-.igot.plt       0x200001d4        0x0 load address 0x08007bc0
+.igot.plt       0x200001d4        0x0 load address 0x08008c68
  .igot.plt      0x200001d4        0x0 main.o
 
-.bss            0x200001d4       0xc8 load address 0x08007bc0
+.bss            0x200001d4       0xc8 load address 0x08008c68
                 0x200001d4                _bss = .
  *(.bss*)
  .bss           0x200001d4        0x0 main.o
@@ -913,9 +940,18 @@ END GROUP
                 0x20000280                errno
  .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_divsi3.o)
  .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_dvmd_tls.o)
+ .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o)
  .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divsf3.o)
+ .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(mulsf3.o)
+ .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subsf3.o)
+ .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixsfsi.o)
+ .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsisf.o)
  .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divdf3.o)
+ .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(eqdf2.o)
+ .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(gedf2.o)
+ .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(ledf2.o)
  .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(muldf3.o)
+ .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixdfsi.o)
  .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsidf.o)
  .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(extendsfdf2.o)
  .bss           0x20000284        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(truncdfsf2.o)
@@ -1009,14 +1045,9 @@ END GROUP
  .bss           0x2000029c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signalr.o)
  .bss           0x2000029c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_thumb1_case_uqi.o)
  .bss           0x2000029c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_thumb1_case_shi.o)
- .bss           0x2000029c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o)
  .bss           0x2000029c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(adddf3.o)
- .bss           0x2000029c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(eqdf2.o)
- .bss           0x2000029c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(gedf2.o)
- .bss           0x2000029c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(ledf2.o)
  .bss           0x2000029c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subdf3.o)
  .bss           0x2000029c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(unorddf2.o)
- .bss           0x2000029c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixdfsi.o)
  .bss           0x2000029c        0x0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatunsidf.o)
  *(COMMON)
                 0x2000029c                . = ALIGN (0x4)
@@ -1027,19 +1058,19 @@ END GROUP
 OUTPUT(main.elf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x00000000     0x23cc
- .debug_info    0x00000000      0xd7a main.o
- .debug_info    0x00000d7a      0x3ad startup.o
- .debug_info    0x00001127      0x82d serial.o
- .debug_info    0x00001954      0x724 newlib_stubs.o
- .debug_info    0x00002078      0x354 lcd.o
+.debug_info     0x00000000     0x26ed
+ .debug_info    0x00000000     0x109b main.o
+ .debug_info    0x0000109b      0x3ad startup.o
+ .debug_info    0x00001448      0x82d serial.o
+ .debug_info    0x00001c75      0x724 newlib_stubs.o
+ .debug_info    0x00002399      0x354 lcd.o
 
-.debug_abbrev   0x00000000      0x8b1
- .debug_abbrev  0x00000000      0x297 main.o
- .debug_abbrev  0x00000297      0x174 startup.o
- .debug_abbrev  0x0000040b      0x1f5 serial.o
- .debug_abbrev  0x00000600      0x17b newlib_stubs.o
- .debug_abbrev  0x0000077b      0x136 lcd.o
+.debug_abbrev   0x00000000      0x94d
+ .debug_abbrev  0x00000000      0x333 main.o
+ .debug_abbrev  0x00000333      0x174 startup.o
+ .debug_abbrev  0x000004a7      0x1f5 serial.o
+ .debug_abbrev  0x0000069c      0x17b newlib_stubs.o
+ .debug_abbrev  0x00000817      0x136 lcd.o
 
 .debug_aranges  0x00000000       0xa8
  .debug_aranges
@@ -1053,23 +1084,23 @@ LOAD linker stubs
  .debug_aranges
                 0x00000088       0x20 lcd.o
 
-.debug_line     0x00000000     0x1151
- .debug_line    0x00000000      0x4be main.o
- .debug_line    0x000004be      0x25c startup.o
- .debug_line    0x0000071a      0x49a serial.o
- .debug_line    0x00000bb4      0x286 newlib_stubs.o
- .debug_line    0x00000e3a      0x317 lcd.o
+.debug_line     0x00000000     0x14c3
+ .debug_line    0x00000000      0x830 main.o
+ .debug_line    0x00000830      0x25c startup.o
+ .debug_line    0x00000a8c      0x49a serial.o
+ .debug_line    0x00000f26      0x286 newlib_stubs.o
+ .debug_line    0x000011ac      0x317 lcd.o
 
-.debug_str      0x00000000      0xb15
- .debug_str     0x00000000      0x61f main.o
-                                0x6a0 (size before relaxing)
- .debug_str     0x0000061f       0xf5 startup.o
+.debug_str      0x00000000      0xbe7
+ .debug_str     0x00000000      0x6f1 main.o
+                                0x77e (size before relaxing)
+ .debug_str     0x000006f1       0xf5 startup.o
                                 0x2a2 (size before relaxing)
- .debug_str     0x00000714      0x173 serial.o
+ .debug_str     0x000007e6      0x173 serial.o
                                 0x37a (size before relaxing)
- .debug_str     0x00000887      0x20b newlib_stubs.o
+ .debug_str     0x00000959      0x20b newlib_stubs.o
                                 0x3a0 (size before relaxing)
- .debug_str     0x00000a92       0x83 lcd.o
+ .debug_str     0x00000b64       0x83 lcd.o
                                 0x1e6 (size before relaxing)
 
 .comment        0x00000000       0x49
@@ -1099,210 +1130,222 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000126       0x1e C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x00000144       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divsf3.o)
+                0x00000144       0x1e C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x00000170       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divdf3.o)
+                0x00000162       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divsf3.o)
  .ARM.attributes
-                0x0000019c       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(muldf3.o)
+                0x0000018e       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(mulsf3.o)
  .ARM.attributes
-                0x000001c8       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsidf.o)
+                0x000001ba       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subsf3.o)
  .ARM.attributes
-                0x000001f4       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(extendsfdf2.o)
+                0x000001e6       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixsfsi.o)
  .ARM.attributes
-                0x00000220       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(truncdfsf2.o)
+                0x00000212       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsisf.o)
  .ARM.attributes
-                0x0000024c       0x1e C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_udivsi3.o)
+                0x0000023e       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divdf3.o)
  .ARM.attributes
-                0x0000026a       0x1e C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_clzsi2.o)
+                0x0000026a       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(eqdf2.o)
  .ARM.attributes
-                0x00000288       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fflush.o)
+                0x00000296       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(gedf2.o)
  .ARM.attributes
-                0x000002b4       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                0x000002c2       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(ledf2.o)
  .ARM.attributes
-                0x000002e0       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fwalk.o)
+                0x000002ee       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(muldf3.o)
  .ARM.attributes
-                0x0000030c       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-impure.o)
+                0x0000031a       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixdfsi.o)
  .ARM.attributes
-                0x00000338       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
+                0x00000346       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsidf.o)
  .ARM.attributes
-                0x00000364       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memset.o)
+                0x00000372       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(extendsfdf2.o)
  .ARM.attributes
-                0x00000390       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-freer.o)
+                0x0000039e       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(truncdfsf2.o)
  .ARM.attributes
-                0x000003bc       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                0x000003ca       0x1e C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x000003e8       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x000003e8       0x1e C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_clzsi2.o)
  .ARM.attributes
-                0x00000414       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000406       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fflush.o)
  .ARM.attributes
-                0x00000440       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-printf.o)
+                0x00000432       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
  .ARM.attributes
-                0x0000046c       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-puts.o)
+                0x0000045e       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fwalk.o)
  .ARM.attributes
-                0x00000498       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sbrkr.o)
+                0x0000048a       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x000004c4       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sprintf.o)
+                0x000004b6       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
  .ARM.attributes
-                0x000004f0       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
+                0x000004e2       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x0000051c       0x1c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-strlen.o)
+                0x0000050e       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x00000538       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wbuf.o)
+                0x0000053a       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x00000564       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-writer.o)
+                0x00000566       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
  .ARM.attributes
-                0x00000590       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wsetup.o)
+                0x00000592       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x000005bc       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-closer.o)
+                0x000005be       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-printf.o)
  .ARM.attributes
-                0x000005e8       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
+                0x000005ea       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-puts.o)
  .ARM.attributes
-                0x00000614       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-localeconv.o)
+                0x00000616       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x00000640       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lseekr.o)
+                0x00000642       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sprintf.o)
  .ARM.attributes
-                0x0000066c       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-makebuf.o)
+                0x0000066e       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
  .ARM.attributes
-                0x00000698       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-malloc.o)
+                0x0000069a       0x1c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-strlen.o)
  .ARM.attributes
-                0x000006c4       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memchr-stub.o)
+                0x000006b6       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wbuf.o)
  .ARM.attributes
-                0x000006f0       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memcpy-stub.o)
+                0x000006e2       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-writer.o)
  .ARM.attributes
-                0x0000071c       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mlock.o)
+                0x0000070e       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wsetup.o)
  .ARM.attributes
-                0x00000748       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+                0x0000073a       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-closer.o)
  .ARM.attributes
-                0x00000774       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-callocr.o)
+                0x00000766       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
  .ARM.attributes
-                0x000007a0       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x00000792       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-localeconv.o)
  .ARM.attributes
-                0x000007cc       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x000007be       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lseekr.o)
  .ARM.attributes
-                0x000007f8       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-readr.o)
+                0x000007ea       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-makebuf.o)
  .ARM.attributes
-                0x00000824       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-assert.o)
+                0x00000816       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-malloc.o)
  .ARM.attributes
-                0x00000850       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fprintf.o)
+                0x00000842       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memchr-stub.o)
  .ARM.attributes
-                0x0000087c       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fstatr.o)
+                0x0000086e       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x000008a8       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fvwrite.o)
+                0x0000089a       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mlock.o)
  .ARM.attributes
-                0x000008d4       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-isattyr.o)
+                0x000008c6       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
  .ARM.attributes
-                0x00000900       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
+                0x000008f2       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-callocr.o)
  .ARM.attributes
-                0x0000092c       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mbtowc_r.o)
+                0x0000091e       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-svfprintf.o)
  .ARM.attributes
-                0x00000958       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memmove.o)
+                0x0000094a       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
  .ARM.attributes
-                0x00000984       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                0x00000976       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-readr.o)
  .ARM.attributes
-                0x000009b0       0x1c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-strcmp.o)
+                0x000009a2       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-assert.o)
  .ARM.attributes
-                0x000009cc       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wctomb_r.o)
+                0x000009ce       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fprintf.o)
  .ARM.attributes
-                0x000009f8       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-abort.o)
+                0x000009fa       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fstatr.o)
  .ARM.attributes
-                0x00000a24       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-ctype_.o)
+                0x00000a26       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fvwrite.o)
  .ARM.attributes
-                0x00000a50       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-msizer.o)
+                0x00000a52       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-isattyr.o)
  .ARM.attributes
-                0x00000a7c       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
+                0x00000a7e       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
  .ARM.attributes
-                0x00000aa8       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signalr.o)
+                0x00000aaa       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mbtowc_r.o)
  .ARM.attributes
-                0x00000ad4       0x1e C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_thumb1_case_uqi.o)
+                0x00000ad6       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memmove.o)
  .ARM.attributes
-                0x00000af2       0x1e C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_thumb1_case_shi.o)
+                0x00000b02       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-reallocr.o)
  .ARM.attributes
-                0x00000b10       0x1e C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o)
+                0x00000b2e       0x1c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-strcmp.o)
  .ARM.attributes
-                0x00000b2e       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(adddf3.o)
+                0x00000b4a       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wctomb_r.o)
  .ARM.attributes
-                0x00000b5a       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(eqdf2.o)
+                0x00000b76       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-abort.o)
  .ARM.attributes
-                0x00000b86       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(gedf2.o)
+                0x00000ba2       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-ctype_.o)
  .ARM.attributes
-                0x00000bb2       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(ledf2.o)
+                0x00000bce       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-msizer.o)
  .ARM.attributes
-                0x00000bde       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subdf3.o)
+                0x00000bfa       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
  .ARM.attributes
-                0x00000c0a       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(unorddf2.o)
+                0x00000c26       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signalr.o)
  .ARM.attributes
-                0x00000c36       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixdfsi.o)
+                0x00000c52       0x1e C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_thumb1_case_uqi.o)
  .ARM.attributes
-                0x00000c62       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatunsidf.o)
+                0x00000c70       0x1e C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_thumb1_case_shi.o)
+ .ARM.attributes
+                0x00000c8e       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(adddf3.o)
+ .ARM.attributes
+                0x00000cba       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subdf3.o)
+ .ARM.attributes
+                0x00000ce6       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(unorddf2.o)
+ .ARM.attributes
+                0x00000d12       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatunsidf.o)
 
-.debug_frame    0x00000000     0x19c4
- .debug_frame   0x00000000      0x108 main.o
- .debug_frame   0x00000108       0x94 startup.o
- .debug_frame   0x0000019c      0x1e8 serial.o
- .debug_frame   0x00000384      0x228 newlib_stubs.o
- .debug_frame   0x000005ac      0x128 lcd.o
- .debug_frame   0x000006d4       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_divsi3.o)
- .debug_frame   0x000006f4       0x38 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divsf3.o)
- .debug_frame   0x0000072c       0x3c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divdf3.o)
- .debug_frame   0x00000768       0x3c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(muldf3.o)
- .debug_frame   0x000007a4       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsidf.o)
- .debug_frame   0x000007d0       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(extendsfdf2.o)
- .debug_frame   0x000007fc       0x30 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(truncdfsf2.o)
- .debug_frame   0x0000082c       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_udivsi3.o)
- .debug_frame   0x0000084c       0x68 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fflush.o)
- .debug_frame   0x000008b4      0x170 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
- .debug_frame   0x00000a24       0x58 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fwalk.o)
- .debug_frame   0x00000a7c       0xb0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
- .debug_frame   0x00000b2c       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memset.o)
- .debug_frame   0x00000b4c       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x00000b78       0x50 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x00000bc8       0x70 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
- .debug_frame   0x00000c38       0x54 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x00000c8c       0x50 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-printf.o)
- .debug_frame   0x00000cdc       0x44 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-puts.o)
- .debug_frame   0x00000d20       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x00000d4c       0x48 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sprintf.o)
- .debug_frame   0x00000d94       0x90 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
- .debug_frame   0x00000e24       0x48 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wbuf.o)
- .debug_frame   0x00000e6c       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-writer.o)
- .debug_frame   0x00000e98       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wsetup.o)
- .debug_frame   0x00000ec4       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-closer.o)
- .debug_frame   0x00000ef0       0x54 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
- .debug_frame   0x00000f44       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-localeconv.o)
- .debug_frame   0x00000f84       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lseekr.o)
- .debug_frame   0x00000fb0       0x54 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-makebuf.o)
- .debug_frame   0x00001004       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-malloc.o)
- .debug_frame   0x00001044       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memchr-stub.o)
- .debug_frame   0x00001064       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000108c       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mlock.o)
- .debug_frame   0x000010cc      0x22c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
- .debug_frame   0x000012f8       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-callocr.o)
- .debug_frame   0x00001324       0x74 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x00001398       0x9c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
- .debug_frame   0x00001434       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-readr.o)
- .debug_frame   0x00001460       0x44 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-assert.o)
- .debug_frame   0x000014a4       0x4c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fprintf.o)
- .debug_frame   0x000014f0       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fstatr.o)
- .debug_frame   0x0000151c       0x30 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fvwrite.o)
- .debug_frame   0x0000154c       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-isattyr.o)
- .debug_frame   0x00001578       0x54 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
- .debug_frame   0x000015cc       0x44 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mbtowc_r.o)
- .debug_frame   0x00001610       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memmove.o)
- .debug_frame   0x00001638       0x34 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x0000166c       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-strcmp.o)
- .debug_frame   0x0000168c       0x38 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wctomb_r.o)
- .debug_frame   0x000016c4       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-abort.o)
- .debug_frame   0x000016ec       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-msizer.o)
- .debug_frame   0x0000170c       0xe0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
- .debug_frame   0x000017ec       0x44 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signalr.o)
- .debug_frame   0x00001830       0x38 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(adddf3.o)
- .debug_frame   0x00001868       0x38 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(eqdf2.o)
- .debug_frame   0x000018a0       0x34 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(gedf2.o)
- .debug_frame   0x000018d4       0x34 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(ledf2.o)
- .debug_frame   0x00001908       0x3c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subdf3.o)
- .debug_frame   0x00001944       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(unorddf2.o)
- .debug_frame   0x00001970       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixdfsi.o)
- .debug_frame   0x0000199c       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatunsidf.o)
+.debug_frame    0x00000000     0x1b50
+ .debug_frame   0x00000000      0x1d4 main.o
+ .debug_frame   0x000001d4       0x94 startup.o
+ .debug_frame   0x00000268      0x1e8 serial.o
+ .debug_frame   0x00000450      0x228 newlib_stubs.o
+ .debug_frame   0x00000678      0x128 lcd.o
+ .debug_frame   0x000007a0       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_divsi3.o)
+ .debug_frame   0x000007c0       0x38 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divsf3.o)
+ .debug_frame   0x000007f8       0x38 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(mulsf3.o)
+ .debug_frame   0x00000830       0x38 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subsf3.o)
+ .debug_frame   0x00000868       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixsfsi.o)
+ .debug_frame   0x00000888       0x30 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsisf.o)
+ .debug_frame   0x000008b8       0x3c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divdf3.o)
+ .debug_frame   0x000008f4       0x38 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(eqdf2.o)
+ .debug_frame   0x0000092c       0x34 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(gedf2.o)
+ .debug_frame   0x00000960       0x34 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(ledf2.o)
+ .debug_frame   0x00000994       0x3c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(muldf3.o)
+ .debug_frame   0x000009d0       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixdfsi.o)
+ .debug_frame   0x000009fc       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsidf.o)
+ .debug_frame   0x00000a28       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(extendsfdf2.o)
+ .debug_frame   0x00000a54       0x30 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(truncdfsf2.o)
+ .debug_frame   0x00000a84       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000aa4       0x68 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fflush.o)
+ .debug_frame   0x00000b0c      0x170 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+ .debug_frame   0x00000c7c       0x58 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fwalk.o)
+ .debug_frame   0x00000cd4       0xb0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lock.o)
+ .debug_frame   0x00000d84       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000da4       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000dd0       0x50 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000e20       0x70 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
+ .debug_frame   0x00000e90       0x54 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00000ee4       0x50 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-printf.o)
+ .debug_frame   0x00000f34       0x44 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-puts.o)
+ .debug_frame   0x00000f78       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000fa4       0x48 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sprintf.o)
+ .debug_frame   0x00000fec       0x90 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
+ .debug_frame   0x0000107c       0x48 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wbuf.o)
+ .debug_frame   0x000010c4       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-writer.o)
+ .debug_frame   0x000010f0       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wsetup.o)
+ .debug_frame   0x0000111c       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-closer.o)
+ .debug_frame   0x00001148       0x54 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
+ .debug_frame   0x0000119c       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-localeconv.o)
+ .debug_frame   0x000011dc       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-lseekr.o)
+ .debug_frame   0x00001208       0x54 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-makebuf.o)
+ .debug_frame   0x0000125c       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-malloc.o)
+ .debug_frame   0x0000129c       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x000012bc       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000012e4       0x40 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00001324      0x22c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
+ .debug_frame   0x00001550       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-callocr.o)
+ .debug_frame   0x0000157c       0x74 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x000015f0       0x9c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+ .debug_frame   0x0000168c       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-readr.o)
+ .debug_frame   0x000016b8       0x44 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-assert.o)
+ .debug_frame   0x000016fc       0x4c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fprintf.o)
+ .debug_frame   0x00001748       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fstatr.o)
+ .debug_frame   0x00001774       0x30 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fvwrite.o)
+ .debug_frame   0x000017a4       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-isattyr.o)
+ .debug_frame   0x000017d0       0x54 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
+ .debug_frame   0x00001824       0x44 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x00001868       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x00001890       0x34 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x000018c4       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-strcmp.o)
+ .debug_frame   0x000018e4       0x38 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-wctomb_r.o)
+ .debug_frame   0x0000191c       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-abort.o)
+ .debug_frame   0x00001944       0x20 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x00001964       0xe0 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
+ .debug_frame   0x00001a44       0x44 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signalr.o)
+ .debug_frame   0x00001a88       0x38 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(adddf3.o)
+ .debug_frame   0x00001ac0       0x3c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subdf3.o)
+ .debug_frame   0x00001afc       0x2c C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(unorddf2.o)
+ .debug_frame   0x00001b28       0x28 C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatunsidf.o)
 
 .debug_ranges   0x00000000       0x18
  .debug_ranges  0x00000000       0x18 startup.o
@@ -1382,6 +1425,7 @@ __aeabi_d2f                                       C:\MCU_ARM\gcc-arm-none-eabi-1
                                                   main.o
 __aeabi_d2iz                                      C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixdfsi.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
+                                                  main.o
 __aeabi_dadd                                      C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(adddf3.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
 __aeabi_dcmpeq                                    C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o)
@@ -1391,6 +1435,7 @@ __aeabi_dcmpge                                    C:\MCU_ARM\gcc-arm-none-eabi-1
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
 __aeabi_dcmpgt                                    C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
+                                                  main.o
 __aeabi_dcmple                                    C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
 __aeabi_dcmplt                                    C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_arm_cmpdf2.o)
@@ -1410,10 +1455,18 @@ __aeabi_dsub                                      C:\MCU_ARM\gcc-arm-none-eabi-1
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
 __aeabi_f2d                                       C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(extendsfdf2.o)
                                                   main.o
+__aeabi_f2iz                                      C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(fixsfsi.o)
+                                                  main.o
 __aeabi_fdiv                                      C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divsf3.o)
+                                                  main.o
+__aeabi_fmul                                      C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(mulsf3.o)
+                                                  main.o
+__aeabi_fsub                                      C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subsf3.o)
                                                   main.o
 __aeabi_i2d                                       C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsidf.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
+                                                  main.o
+__aeabi_i2f                                       C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsisf.o)
                                                   main.o
 __aeabi_idiv                                      C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_divsi3.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fvwrite.o)
@@ -1426,6 +1479,7 @@ __aeabi_idiv0                                     C:\MCU_ARM\gcc-arm-none-eabi-1
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_divsi3.o)
 __aeabi_idivmod                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_divsi3.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                                                  main.o
 __aeabi_ldiv0                                     C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(_dvmd_tls.o)
 __aeabi_ui2d                                      C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatunsidf.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
@@ -1452,6 +1506,9 @@ __clzsi2                                          C:\MCU_ARM\gcc-arm-none-eabi-1
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsidf.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(muldf3.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divdf3.o)
+                                                  C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(floatsisf.o)
+                                                  C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(subsf3.o)
+                                                  C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(mulsf3.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\thumb\v6-m\nofp\libgcc.a(divsf3.o)
 __copybits                                        C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
 __cvt                                             C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
@@ -1755,12 +1812,15 @@ _write_r                                          C:\MCU_ARM\gcc-arm-none-eabi-1
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-stdio.o)
 abort                                             C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-abort.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-assert.o)
+check_cap                                         main.o
 delay                                             main.o
+delete                                            main.o
 egetc                                             serial.o
                                                   newlib_stubs.o
 egetc_echo                                        serial.o
 egets                                             serial.o
 egets_echo                                        serial.o
+                                                  main.o
 environ                                           newlib_stubs.o
 eputc                                             serial.o
                                                   newlib_stubs.o
@@ -1792,6 +1852,7 @@ main                                              main.o
 malloc                                            C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-malloc.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-mprec.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-dtoa.o)
+man_set                                           main.o
 memchr                                            C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memchr-stub.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-fvwrite.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)
@@ -1809,13 +1870,17 @@ memmove                                           C:\MCU_ARM\gcc-arm-none-eabi-1
 memset                                            C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-memset.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-callocr.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-findfp.o)
+                                                  main.o
 printf                                            C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-printf.o)
                                                   main.o
 puts                                              C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-puts.o)
                                                   main.o
 raise                                             C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-abort.o)
+rec_page                                          main.o
+record                                            main.o
 setlocale                                         C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
+setting_page                                      main.o
 signal                                            C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-signal.o)
 siprintf                                          C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sprintf.o)
 sprintf                                           C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-sprintf.o)
@@ -1824,6 +1889,7 @@ strcmp                                            C:\MCU_ARM\gcc-arm-none-eabi-1
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-locale.o)
 strlen                                            C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-strlen.o)
                                                   C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                                                  main.o
 usart_rx                                          serial.o
 usart_tx                                          serial.o
 vfiprintf                                         C:\MCU_ARM\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\lib\thumb\v6-m\nofp\libc_nano.a(lib_a-nano-vfprintf.o)

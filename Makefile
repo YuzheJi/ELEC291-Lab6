@@ -36,15 +36,15 @@ newlib_stubs.o: ../Common/Source/newlib_stubs.c
 clean: 
 	@del $(OBJS) 2>NUL
 	@del main.elf main.hex main.map 2>NUL
+	@del loadf.bat sputty.bat 2>NUL
 
-Load_Flash: main.hex
+load: main.hex
 	@taskkill /f /im putty.exe /t /fi "status eq running" > NUL
-	@echo ..\stm32flash\stm32flash -w main.hex -v -g 0x0 COM19>>loadf.bat
-#	@..\stm32flash\BO230\BO230 -b >>loadf.bat
-	@loadf
+	@stm32flash -w main.hex -v -g 0x0 COM19
 	@echo cmd /c start putty.exe -sercfg 115200,8,n,1,N -serial ^^>sputty.bat
 	@..\stm32flash\BO230\BO230 -r >>sputty.bat
 	@sputty
+	@del loadf.bat sputty.bat 2>NUL
 	
 putty:
 	@taskkill /f /im putty.exe /t /fi "status eq running" > NUL
