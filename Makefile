@@ -40,12 +40,14 @@ clean:
 
 load: main.hex
 	@taskkill /f /im putty.exe /t /fi "status eq running" > NUL
-	@stm32flash -w main.hex -v -g 0x0 COM19
+	@echo ..\stm32flash\stm32flash -w main.hex -v -g 0x0 ^^>loadf.bat
+	@..\stm32flash\BO230\BO230 -b >>loadf.bat
+	@loadf
 	@echo cmd /c start putty.exe -sercfg 115200,8,n,1,N -serial ^^>sputty.bat
 	@..\stm32flash\BO230\BO230 -r >>sputty.bat
 	@sputty
 	@del loadf.bat sputty.bat 2>NUL
-	
+
 putty:
 	@taskkill /f /im putty.exe /t /fi "status eq running" > NUL
 	@echo cmd /c start putty.exe -sercfg 115200,8,n,1,N -serial ^^>sputty.bat
