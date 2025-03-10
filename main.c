@@ -225,6 +225,7 @@ int rec_page(int* cap1000, int rec_count){
 	int rec_count_func=rec_count;
 	char lb[17];
 
+	
 	while(1){
 		if(count < 29){
 			sprintf(lb,"%2d.C=%-7.3fnF <",count+1,(float)cap1000[count]/1000);
@@ -440,16 +441,14 @@ void main(void)
 				break;
 			}
 		}
-		else{
-			printf("NO SIGNAL                     \r");
-			LCDprint("No signal",1,1);
-		}
 
 		if (!Nof){
 		 	while(!Nof);
 		}
 		if (!Setting_page){
 			while(!Setting_page);
+			printf("Editing settings              \r");
+			fflush(stdout);
 			setting_page(&error_percent, &cap_chk, error_preset, cap_chk_preset);
 	    }
 	    if (!Mode){
@@ -460,6 +459,8 @@ void main(void)
    		}
 		if (!Record_page){
 		 	while(!Record_page);
+			fflush(stdout);
+			printf("Viewing records:               \r");
 			rec_count = rec_page(cap1000, rec_count);
 		}
 		if (!Rec){
