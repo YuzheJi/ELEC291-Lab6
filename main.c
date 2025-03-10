@@ -220,6 +220,16 @@ int delete(int* cap1000, int rec_count, int delet_index){
 	}
 }
 
+void display(int* cap1000){
+	int i = 0;
+
+	for(i=0;i<30;i++){
+		//printf("%2d. Capacitance=%fnF",cap1000[i]/1000.0);
+		printf("%.3f,",cap1000[i]/1000.0);
+		fflush(stdout);
+	}
+}
+
 int rec_page(int* cap1000, int rec_count){
 	int count = 0;
 	int rec_count_func=rec_count;
@@ -345,13 +355,13 @@ bool check_cap(float C, int error_percent, int cap_chk){
 	if(diff10/10.0>cap_chk){
 		LEDG_Set0;
 		LEDR_Set1;
-		printf("Capacitance:%.4fnF Err: %.4f\r",C,(float)diff10/100000.0);
+		//printf("Capacitance:%.4fnF Err: %.4f\r",C,(float)diff10/100000.0);
 		return 0;
 	} 
 	else{
 		LEDG_Set1;
 		LEDR_Set0;
-		printf("Capacitance:%.4fnF Err: %.4f\r",C,(float)diff10/100000.0);
+		//printf("Capacitance:%.4fnF Err: %.4f\r",C,(float)diff10/100000.0);
 		return 1;
 	}
 	
@@ -392,7 +402,7 @@ void main(void)
 	LCDprint("  Capactitance ",2,1);
 
 	waitms(800); // Wait for putty to start.
-	printf("Lab 6 Capacitance with STM32\r\n");
+	//printf("Lab 6 Capacitance with STM32\r\n");
 	
 	while(1)
 	{
@@ -408,14 +418,20 @@ void main(void)
 				LCDprint("Measure:      ON",1,1);
 				if(fabsf(C)<0.005){
 					LCDprint("No capacitor...",2,1);
-					printf("Capacitance:%.4fnF(0nF)\r",C);
+					//printf("Capacitance:%.4fnF(0nF)\r",C);
+					printf("%d,",0);
+					display(cap1000);
+					printf("\n\r");
 					LEDG_Set0;
 					LEDR_Set1;
 				}
 				else{
 					sprintf(linebuffer,"C=%.3fnF",C);
 					LCDprint(linebuffer,2,1);
-					printf("Capacitance:%.4fnF\r",C);
+					//printf("Capacitance:%.4fnF\r",C);
+					printf("%.3f,",C);
+					display(cap1000);
+					printf("\n\r");
 					LEDG_Set0;
 					LEDR_Set0;
 				}	
@@ -427,12 +443,18 @@ void main(void)
 				if(!chk_flag) sprintf(linebuffer,"C=%.3fnF  !!!",C);
 				else		  sprintf(linebuffer,"C=%.3fnF  OK!",C);
 				LCDprint(linebuffer,2,1);
+				printf("%.3f,",C);
+				display(cap1000);
+				printf("\n\r");
 				break;
 
 			case 2:
 					    //1234567890123456
 				LCDprint("Measure:     OFF",1,1);
 				LCDprint("Press to start",2,1);
+				printf("%d,",-99);
+				display(cap1000);
+				printf("\n\r");
 				LEDG_Set1;
 				LEDR_Set1;
 				break;
@@ -447,7 +469,7 @@ void main(void)
 		}
 		if (!Setting_page){
 			while(!Setting_page);
-			printf("Editing settings              \r");
+			printf("\nEditing settings              \r");
 			fflush(stdout);
 			setting_page(&error_percent, &cap_chk, error_preset, cap_chk_preset);
 	    }
@@ -460,7 +482,7 @@ void main(void)
 		if (!Record_page){
 		 	while(!Record_page);
 			fflush(stdout);
-			printf("Viewing records:               \r");
+			printf("\nViewing records:               \r");
 			rec_count = rec_page(cap1000, rec_count);
 		}
 		if (!Rec){
