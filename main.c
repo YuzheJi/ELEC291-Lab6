@@ -10,7 +10,7 @@
 
 
 #define F_CPU 32000000L
-#define factor 7312.5
+#define factor 136752.136752
 
 
 void delay(int dly)
@@ -400,16 +400,24 @@ void main(void)
 		{
 			T=count/(F_CPU*100.0); // Since we have the time of 100 periods, we need to divide by 100
 			f=1.0/T;
-			C = 1.0/(f*factor) *10e9;
+			C = factor/(f) - 1.229;
 			switch (mode){
 			case 0:
 					    //1234567890123456
 				LCDprint("Measure:      ON",1,1);
-				sprintf(linebuffer,"C=%.3fnF",C);
-				LCDprint(linebuffer,2,1);
-				printf("Capacitance:%.4fnF\r",C);
-				LEDG_Set0;
-				LEDR_Set0;
+				if(fabsf(C)<0.005){
+					LCDprint("No capacitor...",2,1);
+					printf("Capacitance:%.4fnF(0nF)\r",C);
+					LEDG_Set0;
+					LEDR_Set1;
+				}
+				else{
+					sprintf(linebuffer,"C=%.3fnF",C);
+					LCDprint(linebuffer,2,1);
+					printf("Capacitance:%.4fnF\r",C);
+					LEDG_Set0;
+					LEDR_Set0;
+				}	
 				break;
 			case 1:
 					    //1234567890123456
