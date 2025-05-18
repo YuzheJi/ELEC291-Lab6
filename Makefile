@@ -51,7 +51,6 @@ load: main.hex
 putty:
 	@taskkill /f /im putty.exe /t /fi "status eq running" > NUL
 	@echo cmd /c start putty.exe -sercfg 115200,8,n,1,N -serial ^^>sputty.bat
-	@..\stm32flash\BO230\BO230 -r >>sputty.bat
 	@sputty
 	
 explorer:

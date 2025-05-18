@@ -18,28 +18,60 @@ void delay(int dly)
 	while( dly--);
 }
 
+void Set_Pin_Input(int pin, int pmode){
+	uint32_t upper_bits, bottom_bits; 
+	upper_bits = 1UL << pin * 2 + 1; 
+	bottom_bits = 1UL << pin * 2; 
+
+	GPIOA->MODER &= ~(bottom_bits | upper_bits);
+	
+	if (pmode == 0){
+		GPIOA->PUPDR &= ~(bottom_bits);
+		GPIOA->PUPDR &= ~(upper_bits);
+	}
+	else if (pmode == 1){
+		GPIOA->PUPDR |= (bottom_bits);
+		GPIOA->PUPDR &= ~(upper_bits);
+	}
+	else if (pmode == 2){
+		GPIOA->PUPDR |= (bottom_bits);
+		GPIOA->PUPDR |= (upper_bits);
+	}
+}
+// 0 - Bank A, 1 - Bank B
+void Set_Pin_Output(int bank, int pin, int pmode){
+	uint32_t upper_bits, bottom_bits; 
+	uint16_t type_bits; 
+	type_bits = 1UL << pin; 
+	upper_bits = 1UL << (pin * 2 + 1); 
+	bottom_bits = 1UL << (pin * 2); 
+	
+	if (bank == 0){
+		GPIOA->MODER = (GPIOA->MODER & ~(upper_bits|bottom_bits)) | bottom_bits;
+		if (pmode == 0){
+			GPIOA->OTYPER &= ~(type_bits);
+		}	
+	}
+	else if (bank == 1){
+		GPIOB->MODER = (GPIOB->MODER & ~(upper_bits|bottom_bits)) | bottom_bits;
+		if (pmode == 0){
+			GPIOB->OTYPER &= ~(type_bits);
+		}
+	}
+}
+
 void Configure_Pins (void)
 {
-	RCC->IOPENR |= BIT0; // peripheral clock enable for port A
+	RCC->IOPENR |= BIT0;  // peripheral clock enable for port A
+	RCC->IOPENR  |= BIT1; // peripheral clock enable for port B
 	
 	// Make pins PA0 to PA5 outputs (page 200 of RM0451, two bits used to configure: bit0=1, bit1=0)
-    GPIOA->MODER = (GPIOA->MODER & ~(BIT0|BIT1)) | BIT0; // PA0
-	GPIOA->OTYPER &= ~BIT0; // Push-pull
-    
-    GPIOA->MODER = (GPIOA->MODER & ~(BIT2|BIT3)) | BIT2; // PA1
-	GPIOA->OTYPER &= ~BIT1; // Push-pull
-    
-    GPIOA->MODER = (GPIOA->MODER & ~(BIT4|BIT5)) | BIT4; // PA2
-	GPIOA->OTYPER &= ~BIT2; // Push-pull
-    
-    GPIOA->MODER = (GPIOA->MODER & ~(BIT6|BIT7)) | BIT6; // PA3
-	GPIOA->OTYPER &= ~BIT3; // Push-pull
-    
-    GPIOA->MODER = (GPIOA->MODER & ~(BIT8|BIT9)) | BIT8; // PA4
-	GPIOA->OTYPER &= ~BIT4; // Push-pull
-    
-    GPIOA->MODER = (GPIOA->MODER & ~(BIT10|BIT11)) | BIT10; // PA5
-	GPIOA->OTYPER &= ~BIT5; // Push-pull
+    Set_Pin_Output(0,0,0);
+	Set_Pin_Output(0,1,0);
+	Set_Pin_Output(0,2,0);
+	Set_Pin_Output(0,3,0);
+	Set_Pin_Output(0,4,0);
+	Set_Pin_Output(0,5,0);
 }
 
 void wait_1ms(void)
@@ -272,13 +304,16 @@ int rec_page(int* cap1000, int rec_count){
 
 void man_set(int* error, int* cap_chk){
 	char lb[17];
+	char lb1[17];
 	int i;
 	int buffer;
 	int multi;
-	printf("Enter the Capacitance to check(nF, int):");
+	printf("Enter the Capacitance to check(nF, int) ");
 	fflush(stdout); // GCC peculiarities: need to flush stdout to get string out without a '\n'
 	egets_echo(lb, sizeof(lb));
-	printf("\r\n");
+	fflush(stdout);
+	// printf("datarecieved!");
+	// fflush(stdout);
 	for(i=0; i<sizeof(lb); i++)
 	{
 		if(lb[i]=='\n') lb[i]=0;
@@ -292,20 +327,23 @@ void man_set(int* error, int* cap_chk){
 	}
 	*cap_chk = buffer;
 
-	printf("Enter the Error to check(%%, int):");
+	waitms(500);
+	printf("Enter the Error to check(%%, int)");
 	fflush(stdout); // GCC peculiarities: need to flush stdout to get string out without a '\n'
-	egets_echo(lb, sizeof(lb));
-	printf("\r\n");
-	for(i=0; i<sizeof(lb); i++)
+	egets_echo(lb1, sizeof(lb1));
+	fflush(stdout); 
+	// printf("datarecieved!");
+	// fflush(stdout);
+	for(i=0; i<sizeof(lb1); i++)
 	{
-		if(lb[i]=='\n') lb[i]=0;
-		if(lb[i]=='\r') lb[i]=0;
+		if(lb1[i]=='\n') lb1[i]=0;
+		if(lb1[i]=='\r') lb1[i]=0;
 	}
 
 	buffer = 0;
 	multi = 1;
-	for(i=strlen(lb)-1; i>=0;i--){
-		buffer += ((lb[i])-'0')*multi; 
+	for(i=strlen(lb1)-1; i>=0;i--){
+		buffer += ((lb1[i])-'0')*multi; 
 		multi *= 10;
 	}
 	*error = buffer;
@@ -421,7 +459,7 @@ void main(void)
 					//printf("Capacitance:%.4fnF(0nF)\r",C);
 					printf("%d,",0);
 					display(cap1000);
-					printf("\n\r");
+					printf("\n");
 					LEDG_Set0;
 					LEDR_Set1;
 				}
@@ -431,7 +469,7 @@ void main(void)
 					//printf("Capacitance:%.4fnF\r",C);
 					printf("%.3f,",C);
 					display(cap1000);
-					printf("\n\r");
+					printf("\n");
 					LEDG_Set0;
 					LEDR_Set0;
 				}	
@@ -445,7 +483,7 @@ void main(void)
 				LCDprint(linebuffer,2,1);
 				printf("%.3f,",C);
 				display(cap1000);
-				printf("\n\r");
+				printf("\n");
 				break;
 
 			case 2:
@@ -454,7 +492,7 @@ void main(void)
 				LCDprint("Press to start",2,1);
 				printf("%d,",-99);
 				display(cap1000);
-				printf("\n\r");
+				printf("\n");
 				LEDG_Set1;
 				LEDR_Set1;
 				break;
